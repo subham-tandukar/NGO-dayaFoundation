@@ -1,0 +1,1914 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO</title>
+    <!-- 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /> -->
+
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome.min.css">
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+    <!-- UIkit css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.13/dist/css/uikit.min.css">
+
+    <!-- user css -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="pre-loader">
+        <div class="loading">
+            <div class="loader-icon">
+
+            </div>
+            <div class="img">
+                <img src="./assets/img/logo.png" alt="loading">
+            </div>
+            <span>Loading... Please wait</span>
+        </div>
+    </div>
+    <header>
+        <div class="head uk-visible@l ">
+            <div class="uk-container uk-container-expand uk-flex uk-flex-wrap uk-flex-middle uk-flex-between">
+
+                <div class=" head-info">
+                    <p><i class="fas fa-map-marker-alt uk-margin-small-right"></i>Kathmandu, Nepal </p>
+                    <p><i class="fas fa-phone-alt uk-margin-small-right"></i>977-1-4270737 / 4272253</p>
+                </div>
+
+                <div class=" head-icon">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="uk-margin-small-left"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="uk-margin-small-left"><i class="fab fa-instagram"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="uk-container uk-container-expand">
+            <div class="site-nav" uk-sticky="top:300; animation: uk-animation-slide-top;">
+                <div class="uk-container uk-container-expand  uk-flex uk-flex-between uk-flex-middle uk-flex-wrap">
+                    <div class="logo">
+                        <div>
+                            <a href="index.html"><img src="./assets/img/logo.png" alt="logo"></a>
+                        </div>
+                        <div>
+                            <p class="p1">Daya Foundation <br>For Education Health & Culture</p>
+                        </div>
+                    </div>
+
+                    <nav class="uk-visible@l" uk-navbar>
+                        <ul class="navbar uk-flex-middle">
+                            <li><a href="index.html" class="nav-item active-nav">Home</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-item">About Us<span uk-icon="icon: chevron-down"
+                                        class="dropdown-icon"></span></a>
+                                <div class="uk-navbar-dropdown"
+                                    uk-dropdown="animation: reveal-top; animate-out: true; duration: 700">
+                                    <ul class="uk-nav uk-dropdown-nav">
+                                        <li><a href="about-us.html" class="dropdown-list">Who Are We?</a></li>
+                                        <li><a href="about-us.html" class="dropdown-list">Founder - Mr. Dayaram Bhakta
+                                                Mathema</a></li>
+                                        <li><a href="about-us.html" class="dropdown-list">Mission</a></li>
+                                        <li><a href="about-us.html" class="dropdown-list">Objectives</a></li>
+                                        <li><a href="about-us.html" class="dropdown-list">Board of Directors</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li><a href="education.html" class="nav-item">Education</a></li>
+                            <li><a href="health.html" class="nav-item">Health</a></li>
+                            <li><a href="culture.html" class="nav-item">Culture</a></li>
+                            <li><a href="env.html" class="nav-item">Environment & Disaster Relief</a></li>
+
+
+
+                            <li><a href="blog.html" class="nav-item">Blog</a></li>
+
+                            <li class="dropdown">
+                                <a href="#" class="nav-item">Gallery<span uk-icon="icon: chevron-down"
+                                        class="dropdown-icon"></span></a>
+                                <div class="uk-navbar-dropdown"
+                                    uk-dropdown="animation: reveal-top; animate-out: true; duration: 700">
+                                    <ul class="uk-nav uk-dropdown-nav">
+                                        <li><a href="photo.html" class="dropdown-list">Photo</a></li>
+                                        <li><a href="video.html" class="dropdown-list">Video</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li><a href="contact-us.html" class="nav-item">Contact Us</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="uk-hidden@l uk-visible hamburger-menu">
+                        <a href="#offcanvas-slide" uk-toggle><span uk-icon="icon: menu"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="offcanvas-slide" uk-offcanvas>
+            <div class="overlay"></div>
+            <div class="uk-offcanvas-bar">
+                <button class="uk-offcanvas-close" type="button" title="close" uk-close></button>
+
+                <div class="uk-flex uk-flex-middle uk-flex-center uk-flex-wrap uk-margin-top">
+                    <div>
+                        <a href="index.html"><img src="./assets/img/logo.png" alt="logo" style="width:60px"></a>
+                    </div>
+                    <div>
+                        <p class="p1 uk-margin-remove-bottom uk-margin-top" style="color:#fff; font-weight:bold">Daya
+                            Foundation For Education Health & Culture</p>
+                    </div>
+                </div>
+
+                <hr class="uk-margin-remove-bottom">
+
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+
+                    <ul uk-accordion class="uk-margin-remove">
+                        <li class="uk-margin-remove">
+                            <a href="#" class="uk-accordion-title">About Us<span uk-icon="icon: chevron-right"
+                                    class="dropdown-icon"></span></a>
+                            <div class="uk-accordion-content uk-margin-remove-top">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="about-us.html" class="dropdown-list">Who Are We?</a></li>
+                                    <li><a href="about-us.html" class="dropdown-list">Founder - Mr. Dayaram Bhakta
+                                            Mathema</a></li>
+                                    <li><a href="about-us.html" class="dropdown-list">Mission</a></li>
+                                    <li><a href="about-us.html" class="dropdown-list">Objectives</a></li>
+                                    <li><a href="about-us.html" class="dropdown-list">Board of Directors</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="health.html">Health</a></li>
+                    <li><a href="culture.html">Culture</a></li>
+                    <li><a href="env.html">Environment & Disaster Relief</a></li>
+
+
+                    <li><a href="blog.html">Blog</a></li>
+
+                    <ul uk-accordion class="uk-margin-remove">
+                        <li class="uk-margin-remove">
+                            <a href="#" class="uk-accordion-title">Gallery<span uk-icon="icon: chevron-right"
+                                    class="dropdown-icon"></span></a>
+                            <div class="uk-accordion-content uk-margin-remove-top">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="photo.html" class="dropdown-list">Photo</a></li>
+                                    <li><a href="video.html" class="dropdown-list">Video</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+
+                    <li><a href="contact-us.html">Contact Us</a></li>
+
+                </ul>
+                <p style="color:#fff"><i class="fas fa-phone-alt uk-margin-small-right"></i>977-1-4270737 / 4272253</p>
+                <p style="color:#fff"><i class="fas fa-map-marker-alt uk-margin-small-right"></i>Kathmandu, Nepal</p>
+
+                <hr>
+                <div>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="uk-margin-small-left"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="uk-margin-small-left"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="header-bg"></div> -->
+    </header>
+
+    <!-- section hero banner starts  -->
+    <section class="hero-banner">
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabIndex="-1"
+            uk-slideshow="true; min-height: 300; max-height: 600 ;animation: scale">
+            <ul class="uk-slideshow-items">
+                <li>
+                    <div
+                        class="hero-img uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right">
+                        <img src="./assets/img/hero-img-1.jpg" alt="" uk-cover="true" />
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div>
+                        <img src="./assets/img/hero-img-1.jpg" alt="" class="slider-hero-img" />
+                    </div>
+                    <div class=" uk-position-left uk-flex uk-flex-middle uk-transition-slide-left uk-width-2-5@s">
+                        <div class="slider-txt">
+                            <div class="txt-heading">
+
+                                <h3>Health</h3>
+                                <div class="circle linear-bg"></div>
+                            </div>
+                            <p>Dental Camp for Children in Schools</p>
+                            <button class="uk-button uk-button-light"><a href="health.html">Read More</a></button>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div
+                        class="hero-img uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-left">
+                        <img src="./assets/img/hero-img-2.jpg" alt="" uk-cover="true" />
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div>
+                        <img src="./assets/img/hero-img-2.jpg" alt="" class="slider-hero-img" />
+                    </div>
+                    <div class="uk-position-left uk-flex uk-flex-middle uk-transition-slide-left uk-width-2-5@s">
+                        <div class="slider-txt">
+                            <div class="txt-heading">
+
+                                <h3>Culture</h3>
+                                <div class="circle linear-bg"></div>
+                            </div>
+                            <p>We support the restoration and preservation of Nepali art, literature and general
+                                cultural heritage.</p>
+                            <button class="uk-button uk-button-light"><a href="culture.html">Read More</a></button>
+
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div
+                        class="hero-img uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+                        <img src="./assets/img/hero-img-3.jpg" alt="" uk-cover="true" />
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div>
+                        <img src="./assets/img/hero-img-3.jpg" alt="" class="slider-hero-img" />
+                    </div>
+                    <div class="uk-position-left uk-flex uk-flex-middle uk-transition-slide-left uk-width-2-5@s">
+                        <div class="slider-txt">
+                            <div class="txt-heading">
+
+                                <h3>Education</h3>
+                                <div class="circle linear-bg"></div>
+                            </div>
+                            <p>We work to rebuild our communities and help them recover from the earthquake.</p>
+                            <button class="uk-button uk-button-light"><a href="education.html">Read More</a></button>
+
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" uk-slidenav-previous="true"
+                uk-slideshow-item="previous">
+                <div class="slider-btn"><img src="./assets/img/btn.png" alt=""></div>
+            </a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" uk-slidenav-next="true"
+                uk-slideshow-item="next">
+                <div class="slider-btn"><img src="./assets/img/btn.png" alt=""></div>
+            </a>
+        </div>
+    </section>
+    <!-- section hero banner ends  -->
+
+    <!-- section stat starts  -->
+    <section class="stat">
+        <div class="uk-container uk-container-expand">
+            <div class="uk-grid uk-child-width-1-4@m uk-child-width-1-2">
+                <div>
+                    <div class="wrapper">
+                        <i class="fas fa-hand-holding-usd bottom bottom-hide"></i>
+                        <div>
+                            <h5>999+</h5>
+                            <p>Donation Received</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrapper">
+                        <i class="fas fa-hand-holding-usd top"></i>
+                        <div>
+                            <h5>$10 M</h5>
+                            <p>Money Donated</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrapper">
+                        <i class="fas fa-hand-holding-usd bottom"></i>
+                        <div>
+                            <h5>12+</h5>
+                            <p>Active Campaigs</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="wrapper">
+                        <i class="fas fa-hand-holding-usd top top-hide"></i>
+                        <div>
+                            <h5>$90 M</h5>
+                            <p>Charity in last year</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section stat ends  -->
+
+
+    <!-- section about starts  -->
+    <section class="about">
+        <div class="uk-container uk-container-expand">
+            <div class="uk-grid uk-child-width-1-2@m uk-flex-middle">
+                <div>
+                    <div class="about-img">
+                        <img class="img" src="./assets/img/about-img.png" alt="img">
+
+                        <div>
+                            <div class=about-btn>
+                                <a href="about-us.html">Read More <i class="fas fa-book-reader"></i></a>
+                            </div>
+                            <div class="plane"><img src="./assets/img/plane.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="about-txt">
+                        <div class="txt-heading">
+                            <h3> <span>For</span>Education, Health <br> and Culture.</h3>
+                            <div class="circle dark-bg"></div>
+                        </div>
+                        <p>We are committed to create an improved learning environment in the education sector, promote
+                            health services for our communities and preserve the rich cultural heritage of Nepal. We are
+                            committed to create an improved learning environment in the education sector, promote health
+                            services for our communities and preserve the rich cultural heritage of Nepal.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section about ends  -->
+
+    <!-- section our work starts  -->
+    <section class="work">
+        <div class="uk-container uk-container-expand">
+            <div class="uk-text-center">
+                <h5 class="title">Our Work <img src="./assets/img/tick.png" alt=""> </h5>
+            </div>
+
+            <div class="swiper mySwiper-work uk-margin-small-top">
+                <div class="swiper-wrapper"
+                    uk-scrollspy="cls: uk-animation-slide-bottom; target: .wrapper; delay: 300; repeat: false">
+                    <div class="swiper-slide wrapper">
+                        <div class="wrap">
+                            <img src="./assets/img/work1.jpg" alt="">
+                            <h5>Education</h5>
+                            <a href="education.html"><i class="fas fa-book-reader"></i>Read More</a>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="swiper-slide wrapper">
+                        <div class="wrap">
+                            <img src="./assets/img/work2.jpg" alt="">
+                            <h5>Health</h5>
+                            <a href="health.html"><i class="fas fa-book-reader"></i>Read More</a>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="swiper-slide wrapper">
+                        <div class="wrap">
+                            <img src="./assets/img/work3.jpg" alt="">
+                            <h5>Culture</h5>
+                            <a href="culture.html"><i class="fas fa-book-reader"></i>Read More</a>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="swiper-slide wrapper">
+                        <div class="wrap">
+                            <img src="./assets/img/work4.jpg" alt="">
+                            <h5>Environment & Disaster Relief</h5>
+                            <a href="env.html"><i class="fas fa-book-reader"></i>Read More</a>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="swiper-slide wrapper">
+                        <div class="wrap">
+                            <img src="./assets/img/work1.jpg" alt="">
+                            <h5>Education</h5>
+                            <a href="education.html"><i class="fas fa-book-reader"></i>Read More</a>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="swiper-slide wrapper">
+                        <div class="wrap">
+                            <img src="./assets/img/work2.jpg" alt="">
+                            <h5>Health</h5>
+                            <a href="health.html"><i class="fas fa-book-reader"></i>Read More</a>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+                <div class="swiper-pagination uk-flex uk-flex-center uk-flex-middle"></div>
+            </div>
+        </div>
+
+        <div class="bg-img">
+            <img src="./assets/img/brush-white.png" alt="">
+        </div>
+
+    </section>
+    <!-- section our work ends  -->
+
+    <!-- section our gallery starts  -->
+    <section class="gallery">
+
+        <div class="uk-text-center">
+            <h5 class="title">Our Gallery <img src="./assets/img/tick.png" alt=""> </h5>
+        </div>
+
+        <div>
+            <div class="button-switch">
+                <input type="checkbox" id="switch-blue" class="switch" />
+                <label class="lbl-off">Video</label>
+                <label class="lbl-on">Photo</label>
+            </div>
+        </div>
+
+        <div class="gallery-bg">
+            <div class="uk-container uk-container-expand">
+                <div class="swiper mySwiper-gallery uk-margin-small-top photo">
+                    <div class="swiper-wrapper "
+                        uk-scrollspy="cls: uk-animation-slide-bottom; target: .wrapper; delay: 300; repeat: true">
+                        <div class="swiper-slide wrapper">
+                            <div class="wrap">
+                                <img src="./assets/img/work1.jpg" alt="">
+                                <h5>Photo</h5>
+                                <a href="photo.html"><i class="fas fa-image"></i></i>View Photo</a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="swiper-slide wrapper">
+                            <div class="wrap">
+                                <img src="./assets/img/work2.jpg" alt="">
+                                <h5>Photo</h5>
+                                <a href="photo.html"><i class="fas fa-image"></i></i>View Photo</a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="swiper-slide wrapper">
+                            <div class="wrap">
+                                <img src="./assets/img/work3.jpg" alt="">
+                                <h5>Photo</h5>
+                                <a href="photo.html"><i class="fas fa-image"></i></i>View Photo</a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="swiper-slide wrapper">
+                            <div class="wrap">
+                                <img src="./assets/img/work4.jpg" alt="">
+                                <h5>Photo</h5>
+                                <a href="photo.html"><i class="fas fa-image"></i></i>View Photo</a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="swiper-slide wrapper">
+                            <div class="wrap">
+                                <img src="./assets/img/work1.jpg" alt="">
+                                <h5>Photo</h5>
+                                <a href="photo.html"><i class="fas fa-image"></i></i>View Photo</a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="swiper-slide wrapper">
+                            <div class="wrap">
+                                <img src="./assets/img/work2.jpg" alt="">
+                                <h5>Photo</h5>
+                                <a href="photo.html"><i class="fas fa-image"></i></i>View Photo</a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination uk-flex uk-flex-center uk-flex-middle"></div>
+                </div>
+
+                <div class="swiper mySwiper-gallery uk-margin-small-top video d-none">
+                    <div class="swiper-wrapper "
+                        uk-scrollspy="cls: uk-animation-slide-bottom; target: .wrapper; delay: 300; repeat: true">
+                        <div class="swiper-slide wrapper">
+                            <div class="wrap">
+                                <img src="./assets/img/work1.jpg" alt="">
+                                <h5>Video</h5>
+                                <a href="video.html"><i class="fas fa-video"></i>View Video</a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="swiper-slide wrapper">
+                            <div class="wrap">
+                                <img src="./assets/img/work2.jpg" alt="">
+                                <h5>Video</h5>
+                                <a href="video.html"><i class="fas fa-video"></i>View Video</a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="swiper-slide wrapper">
+                            <div class="wrap">
+                                <img src="./assets/img/work3.jpg" alt="">
+                                <h5>Video</h5>
+                                <a href="video.html"><i class="fas fa-video"></i>View Video</a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="swiper-slide wrapper">
+                            <div class="wrap">
+                                <img src="./assets/img/work4.jpg" alt="">
+                                <h5>Video</h5>
+                                <a href="video.html"><i class="fas fa-video"></i>View Video</a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="swiper-slide wrapper">
+                            <div class="wrap">
+                                <img src="./assets/img/work1.jpg" alt="">
+                                <h5>Video</h5>
+                                <a href="video.html"><i class="fas fa-video"></i>View Video</a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="swiper-slide wrapper">
+                            <div class="wrap">
+                                <img src="./assets/img/work2.jpg" alt="">
+                                <h5>Video</h5>
+                                <a href="video.html"><i class="fas fa-video"></i>View Video</a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination uk-flex uk-flex-center uk-flex-middle"></div>
+                </div>
+            </div>
+
+            <div class="bg-overlay"></div>
+        </div>
+    </section>
+    <!-- section our gallery ends  -->
+
+    <!-- section our blog starts  -->
+    <section class="blog">
+        <div class="uk-container uk-container-expand">
+            <div class="uk-text-center">
+                <h5 class="title">Our Blog <img src="./assets/img/tick.png" alt=""> </h5>
+            </div>
+
+            <div class="swiper mySwiper-blog uk-margin-small-top">
+                <div class="swiper-wrapper"
+                    uk-scrollspy="cls: uk-animation-slide-bottom; target: .wrapper; delay: 300; repeat: false">
+                    <div class="swiper-slide wrapper">
+                        <div class="wrap">
+                            <img src="./assets/img/blog-img1.png" alt="">
+                            <div class="read-more">
+                                <a href="blog.html"><i class="fas fa-book-reader"></i>Read More</a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="content">
+
+                            <h5>Book Distribution & Virtual Training during Pandemic</h5>
+                            <p>Daya Foundation distributed fiction and nonfiction books to the students in four public
+                                schools as an alternative way of continuing education during the Covid crisis period.
+                            </p>
+                        </div>
+                        <div class="footer">
+                            <div class="uk-flex uk-flex-wrap uk-flex-middle">
+                                <span>Auther</span>
+                                <span class="dot"></span>
+                                <span>2023-1-1</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide wrapper">
+                        <div class="wrap">
+                            <img src="./assets/img/blog-img2.jpg" alt="">
+                            <div class="read-more">
+                                <a href="blog.html"><i class="fas fa-book-reader"></i>Read More</a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="content">
+
+                            <h5>Nepal Adarsha Secondary School Receives Bronze Award</h5>
+                            <p>Daya Foundation encouraged Nepal Adarsha Secondary School to plan and set up a real
+                                school business integrating the school curriculum of 8th grade.</p>
+                        </div>
+                        <div class="footer">
+                            <div class="uk-flex uk-flex-wrap uk-flex-middle">
+                                <span>Auther</span>
+                                <span class="dot"></span>
+                                <span>2023-1-1</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide wrapper">
+                        <div class="wrap">
+                            <img src="./assets/img/blog-img1.png" alt="">
+                            <div class="read-more">
+                                <a href="blog.html"><i class="fas fa-book-reader"></i>Read More</a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="content">
+
+                            <h5>Book Distribution & Virtual Training during Pandemic</h5>
+                            <p>Daya Foundation distributed fiction and nonfiction books to the students in four public
+                                schools as an alternative way of continuing education during the Covid crisis period.
+                            </p>
+                        </div>
+                        <div class="footer">
+                            <div class="uk-flex uk-flex-wrap uk-flex-middle">
+                                <span>Auther</span>
+                                <span class="dot"></span>
+                                <span>2023-1-1</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide wrapper">
+                        <div class="wrap">
+                            <img src="./assets/img/blog-img2.jpg" alt="">
+                            <div class="read-more">
+                                <a href="blog.html"><i class="fas fa-book-reader"></i>Read More</a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="content">
+
+                            <h5>Nepal Adarsha Secondary School Receives Bronze Award</h5>
+                            <p>Daya Foundation encouraged Nepal Adarsha Secondary School to plan and set up a real
+                                school business integrating the school curriculum of 8th grade.</p>
+                        </div>
+                        <div class="footer">
+                            <div class="uk-flex uk-flex-wrap uk-flex-middle">
+                                <span>Auther</span>
+                                <span class="dot"></span>
+                                <span>2023-1-1</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination uk-flex uk-flex-center uk-flex-middle"></div>
+            </div>
+        </div>
+    </section>
+    <!-- section our blog ends  -->
+
+    <!-- section our teams starts  -->
+    <section class="team">
+        <div class="uk-text-center">
+            <h5 class="title">Our Teams <img src="./assets/img/tick.png" alt=""> </h5>
+        </div>
+        <div class="uk-container uk-container-expand">
+
+            <div class="swiper mySwiper-team uk-margin-top">
+                <div class="swiper-wrapper uk-padding-remove">
+                    <div class="swiper-slide">
+                        <!-- <div class="top-team-bg odd"></div>
+                    <div class="bottom-team-bg odd"></div> -->
+                        <img src="./assets/img/our-team1.png" alt="">
+
+                        <h5>Rajesh B. Pradhan</h5>
+                        <p>President</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="top-team-bg even"></div>
+                        <div class="bottom-team-bg even"></div>
+                        <img src="./assets/img/our-team2.png" alt="">
+
+                        <h5>Prajwol Mathema</h5>
+                        <p>Vice President</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="top-team-bg odd"></div>
+                        <div class="bottom-team-bg odd"></div>
+                        <img src="./assets/img/our-team3.png" alt="">
+
+                        <h5>Meekha Mathema</h5>
+                        <p>Vice President</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="top-team-bg even"></div>
+                        <div class="bottom-team-bg even"></div>
+                        <img src="./assets/img/our-team4.png" alt="">
+
+                        <h5>Neeva M. Pradhan</h5>
+                        <p>General Secretary</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="top-team-bg odd"></div>
+                        <div class="bottom-team-bg odd"></div>
+                        <img src="./assets/img/our-team5.png" alt="">
+
+                        <h5>Sanil Bhakta Joshi</h5>
+                        <p>Treasurer</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination uk-flex uk-flex-center uk-flex-middle"></div>
+            </div>
+        </div>
+    </section>
+    <!-- section our teams ends  -->
+
+    <!-- section our testimonials starts  -->
+    <section class="testimonials">
+        <div class="uk-text-center">
+            <h5 class="title">Our Testimonials <img src="./assets/img/tick.png" alt=""> </h5>
+        </div>
+        <div class="uk-position-relative uk-visible-toggle uk-light wrapper" tabIndex="-1"
+            uk-slideshow="true; min-height: 300; max-height: 600 ;animation: fade">
+
+
+            <ul class="uk-slideshow-items">
+                <li>
+                    <div
+                        class="testimonial-img uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-left">
+                        <img src="./assets/img/pic1.jpg" alt="" uk-cover="true" />
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div>
+                        <img src="./assets/img/pic1.jpg" alt="" class="slider-testimonial-img" />
+                    </div>
+                    <div class="wrap uk-position-right uk-flex uk-flex-middle ">
+                        <div class="slider-txt">
+
+                            <p>On behalf of the Early Rehabilitation Center (ERC), we would like to express our
+                                gratitude to Daya Foundation for all your efforts, goodwill and support to publish 4
+                                books (Mahatma Gandhi, 2067, Mother Teresa, 2067, Bishwo Ko Bal Katha, 2068 and Buddha
+                                life story) in Braille format and helping us to establish the Braille Book Production
+                                Center at ERC. These books are distributed...
+                            </p>
+                            <!-- <a href="#">Read more</a> -->
+                            <h5>Pramod Shrestha, Director</h5>
+                            <span>Early Rehabilitation Center(ERC)</span>
+                            <div class="quote">
+                                <img src="./assets/img/quote.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div
+                        class="testimonial-img uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right">
+                        <img src="./assets/img/pic2.jpg" alt="" uk-cover="true" />
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div>
+                        <img src="./assets/img/pic2.jpg" alt="" class="slider-testimonial-img" />
+                    </div>
+                    <div class="wrap uk-position-right uk-flex uk-flex-middle ">
+                        <div class="slider-txt">
+
+                            <p>We would like to express our gratitude to Daya Foundation for their devotion and
+                                contribution in enhancing the quality of education for our students. We appreciate the
+                                daily nutritious mid-day meals, clean drinking water, value based education and
+                                organizing trainings for our students and teachers....
+                            </p>
+                            <!-- <a href="#">Read more</a> -->
+                            <h5>Rabin Kumar Tamang, Principal</h5>
+                            <span>Shree Bidhyodaya Lower Secondary School, Jhochen</span>
+                            <div class="quote">
+                                <img src="./assets/img/quote.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div
+                        class="testimonial-img uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+                        <img src="./assets/img/pic1.jpg" alt="" uk-cover="true" />
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div>
+                        <img src="./assets/img/pic1.jpg" alt="" class="slider-testimonial-img" />
+                    </div>
+                    <div class="wrap uk-position-right uk-flex uk-flex-middle ">
+                        <div class="slider-txt">
+
+                            <p>Daya Foundation scholarship is a seed of inspiration to continue our higher education as
+                                women. I along with my friends of the 14th batch of PK Campus are very grateful to be
+                                honored with the scholarship. This helps us to contribute back in the area of women's
+                                development in Nepal....
+                            </p>
+                            <!-- <a href="#">Read more</a> -->
+                            <h5>Shrijana KC, Graduate, Women Studies</h5>
+                            <span>Padma Kanya Campus</span>
+                            <div class="quote">
+                                <img src="./assets/img/quote.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div
+                        class="testimonial-img uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+                        <img src="./assets/img/pic2.jpg" alt="" uk-cover="true" />
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div>
+                        <img src="./assets/img/pic2.jpg" alt="" class="slider-testimonial-img" />
+                    </div>
+                    <div class="wrap uk-position-right uk-flex uk-flex-middle ">
+                        <div class="slider-txt">
+
+                            <p>It is a privilege and honor to work with Daya Foundation whose generous grants have
+                                empowered women in Far Western Nepal to increase their access and opportunities, their
+                                voice and visibility. The Foundation's support for the annual tree plantation
+                                fundraising event and support for the library at TEWA shows their commitment.
+                                Collaborating with Daya Foundation has been extremely gratifying.....
+                            </p>
+                            <!-- <a href="#">Read more</a> -->
+                            <h5>Sadhana Shrestha, Executive Director</h5>
+                            <span>TEWA - Nepal Women's Fund</span>
+                            <div class="quote">
+                                <img src="./assets/img/quote.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small" uk-slidenav-previous="true"
+                uk-slideshow-item="previous">
+
+            </a>
+            <a class="uk-position-center-right uk-position-small" uk-slidenav-next="true" uk-slideshow-item="next">
+
+            </a>
+        </div>
+    </section>
+    <!-- section our testimonials ends  -->
+
+    <!-- section charity starts  -->
+    <section class="charity">
+        <div class="uk-container uk-container-expand">
+            <div class="uk-grid uk-child-width-1-2@s uk-flex-middle">
+                <div class="uk-text-center">
+                    <h3>Let's Help Other With <br> <span>Your Charity <img src="./assets/img/brush.png" alt=""> </span>
+                    </h3>
+
+                    <div class="charity-btn">
+                        <button class="uk-button uk-button-dark">
+                            <a href="#">DONATE NOW</a>
+                        </button>
+                        <div class="arrow"><img src="./assets/img/arrow.png" alt=""></div>
+                    </div>
+                </div>
+
+                <div class="svg-img">
+                    <svg width="557" height="554" viewBox="0 0 557 554" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="christmas-charity/bro">
+                            <g id="Floor">
+                                <path id="Vector" d="M541.818 512.604H552.093" stroke="#263238" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path id="Vector_2" d="M195.376 512.604H530.866" stroke="#263238" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path id="Vector_3" d="M14.0068 512.604H186.776" stroke="#263238" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </g>
+                            <g id="Wall">
+                                <path id="Vector_4" opacity="0.2" d="M511.313 184.765H451.518V208.973H511.313V184.765Z"
+                                    fill="black" />
+                                <path id="Vector_5" opacity="0.2" d="M546.354 280.752H486.559V304.96H546.354V280.752Z"
+                                    fill="black" />
+                                <path id="Vector_6" opacity="0.2" d="M444.2 184.765H384.404V208.973H444.2V184.765Z"
+                                    fill="black" />
+                                <path id="Vector_7" opacity="0.2" d="M444.2 250.095H384.404V274.303H444.2V250.095Z"
+                                    fill="black" />
+                                <path id="Vector_8" opacity="0.2" d="M168.15 251.282H108.354V275.49H168.15V251.282Z"
+                                    fill="black" />
+                                <path id="Vector_9" opacity="0.1" d="M546.912 218.214H487.116V242.422H546.912V218.214Z"
+                                    fill="black" />
+                                <path id="Vector_10" opacity="0.1" d="M514.283 249.869H454.487V274.077H514.283V249.869Z"
+                                    fill="black" />
+                                <path id="Vector_11" opacity="0.2" d="M374.807 184.765H315.012V208.973H374.807V184.765Z"
+                                    fill="black" />
+                                <path id="Vector_12" opacity="0.1" d="M342.059 218.214H282.264V242.422H342.059V218.214Z"
+                                    fill="black" />
+                                <path id="Vector_13" opacity="0.1" d="M410.407 218.214H350.611V242.422H410.407V218.214Z"
+                                    fill="black" />
+                                <path id="Vector_14" opacity="0.2" d="M238.302 184.764H178.507V208.972H238.302V184.764Z"
+                                    fill="black" />
+                                <path id="Vector_15" opacity="0.1" d="M205.553 218.214H145.758V242.422H205.553V218.214Z"
+                                    fill="black" />
+                                <path id="Vector_16" opacity="0.1" d="M273.902 218.214H214.106V242.422H273.902V218.214Z"
+                                    fill="black" />
+                                <path id="Vector_17" opacity="0.2" d="M101.797 184.764H42.002V208.972H101.797V184.764Z"
+                                    fill="black" />
+                                <path id="Vector_18" opacity="0.2" d="M98.5423 273.626H38.7471V297.834H98.5423V273.626Z"
+                                    fill="black" />
+                                <path id="Vector_19" opacity="0.1" d="M69.0482 218.214H9.25293V242.422H69.0482V218.214Z"
+                                    fill="black" />
+                                <path id="Vector_20" opacity="0.1" d="M137.396 218.214H77.6006V242.422H137.396V218.214Z"
+                                    fill="black" />
+                                <path id="Vector_21" opacity="0.2" d="M511.313 48.1641H451.518V72.372H511.313V48.1641Z"
+                                    fill="black" />
+                                <path id="Vector_22" opacity="0.2" d="M546.354 144.152H486.559V168.36H546.354V144.152Z"
+                                    fill="black" />
+                                <path id="Vector_23" opacity="0.2" d="M444.2 48.1641H384.404V72.372H444.2V48.1641Z"
+                                    fill="black" />
+                                <path id="Vector_24" opacity="0.2" d="M444.2 113.495H384.404V137.703H444.2V113.495Z"
+                                    fill="black" />
+                                <path id="Vector_25" opacity="0.2" d="M168.15 114.683H108.354V138.891H168.15V114.683Z"
+                                    fill="black" />
+                                <path id="Vector_26" opacity="0.1" d="M478.564 81.6133H418.769V105.821H478.564V81.6133Z"
+                                    fill="black" />
+                                <path id="Vector_27" opacity="0.1" d="M546.912 81.6133H487.116V105.821H546.912V81.6133Z"
+                                    fill="black" />
+                                <path id="Vector_28" opacity="0.1" d="M514.283 113.269H454.487V137.476H514.283V113.269Z"
+                                    fill="black" />
+                                <path id="Vector_29" opacity="0.2" d="M374.807 48.1641H315.012V72.372H374.807V48.1641Z"
+                                    fill="black" />
+                                <path id="Vector_30" opacity="0.1" d="M342.059 81.6133H282.264V105.821H342.059V81.6133Z"
+                                    fill="black" />
+                                <path id="Vector_31" opacity="0.1" d="M410.407 81.6133H350.611V105.821H410.407V81.6133Z"
+                                    fill="black" />
+                                <path id="Vector_32" opacity="0.2" d="M271.561 22.0317H211.766V46.2397H271.561V22.0317Z"
+                                    fill="black" />
+                                <path id="Vector_33" opacity="0.1" d="M205.553 81.6133H145.758V105.821H205.553V81.6133Z"
+                                    fill="black" />
+                                <path id="Vector_34" opacity="0.2" d="M238.302 115.443H178.507V139.651H238.302V115.443Z"
+                                    fill="black" />
+                                <path id="Vector_35" opacity="0.1" d="M273.902 148.903H214.106V173.111H273.902V148.903Z"
+                                    fill="black" />
+                                <path id="Vector_36" opacity="0.2" d="M98.5423 137.025H38.7471V161.233H98.5423V137.025Z"
+                                    fill="black" />
+                                <path id="Vector_37" opacity="0.2" d="M444.2 308.298H384.404V332.506H444.2V308.298Z"
+                                    fill="black" />
+                                <path id="Vector_38" opacity="0.2" d="M444.2 373.629H384.404V397.837H444.2V373.629Z"
+                                    fill="black" />
+                                <path id="Vector_39" opacity="0.2" d="M168.15 374.817H108.354V399.025H168.15V374.817Z"
+                                    fill="black" />
+                                <path id="Vector_40" opacity="0.1" d="M546.912 341.76H487.116V365.968H546.912V341.76Z"
+                                    fill="black" />
+                                <path id="Vector_41" opacity="0.1" d="M514.283 373.403H454.487V397.611H514.283V373.403Z"
+                                    fill="black" />
+                                <path id="Vector_42" opacity="0.2" d="M374.807 308.298H315.012V332.506H374.807V308.298Z"
+                                    fill="black" />
+                                <path id="Vector_43" opacity="0.1" d="M342.059 341.76H282.264V365.968H342.059V341.76Z"
+                                    fill="black" />
+                                <path id="Vector_44" opacity="0.1" d="M410.407 341.76H350.611V365.968H410.407V341.76Z"
+                                    fill="black" />
+                                <path id="Vector_45" opacity="0.1" d="M381.899 410.654H322.104V434.862H381.899V410.654Z"
+                                    fill="black" />
+                                <path id="Vector_46" opacity="0.1" d="M467.422 442.725H407.627V466.933H467.422V442.725Z"
+                                    fill="black" />
+                                <path id="Vector_47" opacity="0.1" d="M241.735 442.725H181.939V466.933H241.735V442.725Z"
+                                    fill="black" />
+                                <path id="Vector_48" opacity="0.1" d="M71.222 442.725H11.4268V466.933H71.222V442.725Z"
+                                    fill="black" />
+                                <path id="Vector_49" opacity="0.1" d="M288.606 259.788H228.811V283.996H288.606V259.788Z"
+                                    fill="black" />
+                                <path id="Vector_50" opacity="0.1" d="M356.953 259.788H297.158V283.996H356.953V259.788Z"
+                                    fill="black" />
+                                <path id="Vector_51" opacity="0.2" d="M238.302 308.298H178.507V332.506H238.302V308.298Z"
+                                    fill="black" />
+                                <path id="Vector_52" opacity="0.1" d="M205.553 341.76H145.758V365.968H205.553V341.76Z"
+                                    fill="black" />
+                                <path id="Vector_53" opacity="0.1" d="M304.143 377.395H244.348V401.602H304.143V377.395Z"
+                                    fill="black" />
+                                <path id="Vector_54" opacity="0.1" d="M273.902 341.76H214.106V365.968H273.902V341.76Z"
+                                    fill="black" />
+                                <path id="Vector_55" opacity="0.2" d="M101.797 308.298H42.002V332.506H101.797V308.298Z"
+                                    fill="black" />
+                                <path id="Vector_56" opacity="0.2" d="M98.5423 397.16H38.7471V421.368H98.5423V397.16Z"
+                                    fill="black" />
+                                <path id="Vector_57" opacity="0.1" d="M69.0482 341.76H9.25293V365.968H69.0482V341.76Z"
+                                    fill="black" />
+                                <path id="Vector_58" opacity="0.1" d="M137.396 341.76H77.6006V365.968H137.396V341.76Z"
+                                    fill="black" />
+                            </g>
+                            <g id="Plant">
+                                <path id="Vector_59" d="M450.379 229.415L473.922 455.054" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_60" d="M470.133 411.865L459.454 400.592" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_61"
+                                    d="M462.697 403.978C462.676 402.251 462.286 400.549 461.553 398.985C460.819 397.422 459.759 396.034 458.445 394.915C455.713 392.468 441.292 386.398 439.914 391.482C438.43 397.005 453.194 407.85 462.697 403.978Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_62" d="M462.696 403.977L448.965 395.413" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_63" d="M472.805 437.534L462.126 426.261" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_64"
+                                    d="M465.381 429.635C465.361 427.911 464.973 426.211 464.241 424.65C463.51 423.089 462.452 421.702 461.14 420.584C458.396 418.137 443.976 412.067 442.61 417.139C441.101 422.675 455.878 433.52 465.381 429.635Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_65" d="M465.369 429.635L451.649 421.083" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_66" d="M463.588 349.255L452.921 337.97" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_67"
+                                    d="M456.164 341.355C456.143 339.629 455.753 337.926 455.02 336.363C454.286 334.8 453.226 333.412 451.911 332.292C449.168 329.845 434.747 323.787 433.381 328.859C431.897 334.43 446.649 345.24 456.164 341.355Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_68" d="M456.163 341.356L442.432 332.803" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_69" d="M466.272 374.912L455.594 363.639" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_70"
+                                    d="M458.837 367.012C458.818 365.288 458.429 363.588 457.698 362.027C456.966 360.466 455.909 359.079 454.597 357.961C451.853 355.514 437.432 349.444 436.066 354.528C434.57 360.052 449.334 370.896 458.837 367.012Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_71" d="M458.836 367.012L445.104 358.46" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_72" d="M459.241 307.562L448.562 296.29" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_73"
+                                    d="M451.816 299.663C451.793 297.938 451.402 296.238 450.668 294.677C449.935 293.116 448.877 291.73 447.564 290.611C444.82 288.164 430.4 282.095 429.034 287.179C427.549 292.702 442.302 303.547 451.816 299.663Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_74" d="M451.816 299.663L438.085 291.11" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_75" d="M454.87 265.69L444.203 254.418" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_76"
+                                    d="M447.445 257.804C447.421 256.077 447.03 254.376 446.297 252.813C445.563 251.25 444.505 249.862 443.193 248.74C440.449 246.294 426.029 240.236 424.663 245.308C423.178 250.831 437.931 261.688 447.445 257.804Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_77" d="M447.444 257.804L433.713 249.239" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_78" d="M468.339 396.685L476.452 383.452" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_79"
+                                    d="M473.981 387.42C473.645 385.729 473.674 383.986 474.068 382.308C474.461 380.63 475.209 379.056 476.262 377.691C478.436 374.722 491.3 365.813 493.687 370.505C496.265 375.601 484.078 389.261 473.981 387.42Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_80" d="M473.981 387.419L486.335 375.612" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_81" d="M461.284 329.156L469.409 315.924" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_82"
+                                    d="M466.925 319.891C466.589 318.2 466.62 316.457 467.016 314.778C467.411 313.1 468.162 311.526 469.218 310.163C471.391 307.193 484.244 298.285 486.631 302.977C489.233 308.072 477.034 321.733 466.925 319.891Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_83" d="M466.926 319.891L479.291 308.084" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_84" d="M458.194 299.485L466.307 286.24" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_85"
+                                    d="M463.824 290.22C463.492 288.526 463.524 286.782 463.919 285.102C464.315 283.422 465.064 281.846 466.117 280.479C468.291 277.522 481.155 268.601 483.542 273.352C486.132 278.389 473.933 292.061 463.824 290.22Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_86" d="M463.825 290.219L476.19 278.4" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_87" d="M453.646 255.975L461.77 242.742" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_88"
+                                    d="M459.288 246.709C458.959 245.025 458.994 243.291 459.389 241.621C459.784 239.952 460.531 238.386 461.58 237.028C463.754 234.059 476.606 225.15 478.994 229.83C481.595 234.89 469.396 248.55 459.288 246.709Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_89" d="M459.287 246.709L471.652 234.902" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_90"
+                                    d="M450.177 228.156C449.841 226.462 449.872 224.717 450.268 223.037C450.663 221.357 451.414 219.781 452.47 218.415C454.643 215.458 467.496 206.537 469.883 211.229C472.508 216.337 460.286 229.997 450.177 228.156Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_91" d="M450.177 228.155L462.542 216.336" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_92"
+                                    d="M450.889 228.713C449.172 228.871 447.44 228.659 445.811 228.091C444.183 227.524 442.694 226.614 441.446 225.423C438.738 222.94 431.219 209.221 436.125 207.344C441.47 205.242 453.776 218.807 450.889 228.713Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_93" d="M450.89 228.666L440.438 215.137" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_94" d="M512.491 260.488L489.067 486.14" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_95" d="M494.246 443.104L486.121 429.872" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_96"
+                                    d="M488.603 433.84C488.936 432.148 488.904 430.405 488.508 428.728C488.113 427.05 487.364 425.476 486.311 424.111C484.125 421.154 471.261 412.233 468.885 416.984C466.284 422.033 478.447 435.681 488.603 433.84Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_97" d="M488.603 433.84L476.927 422.65" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_98" d="M500.743 380.482L492.618 367.25" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_99"
+                                    d="M495.077 371.253C495.409 369.562 495.377 367.819 494.982 366.142C494.586 364.464 493.837 362.89 492.784 361.525C490.599 358.555 477.734 349.647 475.359 354.398C472.781 359.375 484.992 373.059 495.077 371.253Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_100" d="M495.101 371.218L483.425 360.017" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_101" d="M498.082 406.139L489.957 392.907" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_102"
+                                    d="M492.44 396.886C492.772 395.192 492.739 393.447 492.341 391.767C491.944 390.087 491.192 388.512 490.136 387.146C487.962 384.188 475.098 375.268 472.711 380.019C470.133 385.067 482.332 398.727 492.44 396.886Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_103" d="M492.44 396.886L480.764 385.685" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_104" d="M505.067 338.79L496.942 325.557" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_105"
+                                    d="M499.425 329.537C499.76 327.843 499.73 326.098 499.334 324.418C498.939 322.738 498.188 321.162 497.132 319.796C494.958 316.839 482.094 307.918 479.707 312.669C477.105 317.718 489.316 331.378 499.425 329.537Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_106" d="M499.424 329.537L487.748 318.335" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_107" d="M509.413 296.918L501.288 283.686" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_108"
+                                    d="M503.771 287.666C504.104 285.973 504.072 284.228 503.676 282.548C503.281 280.869 502.532 279.293 501.479 277.926C499.293 274.968 486.429 266.047 484.053 270.799C481.452 275.847 493.663 289.507 503.771 287.666Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_109" d="M503.771 287.666L492.095 276.464" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_110" d="M495.611 427.877L506.29 416.593" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_111"
+                                    d="M503.047 419.954C503.067 418.228 503.455 416.527 504.187 414.963C504.918 413.4 505.975 412.012 507.287 410.89C510.031 408.444 524.44 402.362 525.818 407.446C527.302 412.993 512.55 423.85 503.047 419.954Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_112" d="M503.047 419.978L517.574 410.95" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_113" d="M502.62 360.337L513.299 349.064" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_114"
+                                    d="M510.056 352.437C510.075 350.713 510.463 349.013 511.195 347.452C511.926 345.891 512.984 344.504 514.296 343.386C517.04 340.927 531.448 334.858 532.826 339.93C534.276 345.453 519.558 356.322 510.056 352.437Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_115" d="M510.056 352.438L524.583 343.422" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_116" d="M505.707 330.665L516.374 319.381" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_117"
+                                    d="M513.132 322.766C513.152 321.04 513.54 319.339 514.272 317.776C515.003 316.213 516.06 314.824 517.372 313.703C520.116 311.256 534.536 305.174 535.902 310.258C537.399 315.782 522.634 326.638 513.132 322.766Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_118" d="M513.132 322.766L527.659 313.738" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_119" d="M510.222 287.155L520.888 275.87" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_120"
+                                    d="M517.646 279.256C517.665 277.53 518.054 275.828 518.785 274.265C519.517 272.702 520.574 271.314 521.886 270.192C524.63 267.746 539.05 261.676 540.416 266.748C541.913 272.271 527.148 283.128 517.646 279.256Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_121" d="M517.646 279.256L532.173 270.24" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_122"
+                                    d="M512.55 259.217C512.569 257.493 512.958 255.793 513.689 254.232C514.42 252.671 515.478 251.284 516.79 250.166C519.534 247.707 533.943 241.637 535.32 246.709C536.817 252.233 522.052 263.161 512.55 259.217Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_123" d="M512.55 259.217L527.077 250.201" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_124"
+                                    d="M513.143 259.871C511.429 259.666 509.778 259.099 508.301 258.206C506.824 257.313 505.555 256.115 504.578 254.692C502.428 251.71 497.903 236.744 503.094 235.912C508.748 235.009 518.001 250.819 513.143 259.871Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_125" d="M513.144 259.87L505.696 244.464" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_126" d="M485.657 168.598V453.95" stroke="#263238" stroke-width="2"
+                                    stroke-miterlimit="10" />
+                                <path id="Vector_127" d="M485.883 411.045L476.428 398.728" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_128"
+                                    d="M479.302 402.422C479.461 400.705 479.25 398.974 478.685 397.345C478.119 395.717 477.212 394.228 476.024 392.978C473.553 390.258 459.834 382.727 457.945 387.633C455.878 392.978 469.443 405.296 479.302 402.422Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_129" d="M479.302 402.421L466.545 392.491" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_130" d="M485.883 357.426L476.428 345.097" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_131"
+                                    d="M479.302 348.791C479.461 347.075 479.25 345.344 478.685 343.715C478.119 342.086 477.212 340.597 476.024 339.348C473.553 336.628 459.834 329.097 457.945 334.015C455.878 339.348 469.443 351.666 479.302 348.791Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_132" d="M479.302 348.791L466.545 338.861" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_133" d="M485.883 294.46L476.428 282.142" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_134"
+                                    d="M479.302 285.836C479.461 284.119 479.25 282.389 478.685 280.76C478.119 279.131 477.212 277.642 476.024 276.393C473.553 273.673 459.834 266.142 457.945 271.048C455.878 276.393 469.443 288.711 479.302 285.836Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_135" d="M479.302 285.836L466.545 275.906" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_136" d="M485.883 252.553L476.428 240.224" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_137"
+                                    d="M479.302 243.93C479.467 242.204 479.26 240.462 478.694 238.823C478.129 237.184 477.218 235.685 476.024 234.427C473.553 231.707 459.834 224.176 457.945 229.094C455.878 234.475 469.443 246.804 479.302 243.93Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_138" d="M479.302 243.93L466.545 233.988" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_139" d="M485.883 210.457L476.428 198.127" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_140"
+                                    d="M479.302 201.833C479.467 200.107 479.26 198.365 478.694 196.726C478.129 195.087 477.218 193.588 476.024 192.331C473.553 189.61 459.834 182.08 457.945 186.997C455.878 192.378 469.443 204.708 479.302 201.833Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_141" d="M479.302 201.833L466.545 191.891" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_142" d="M485.668 427.425L495.111 415.095" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_143"
+                                    d="M492.238 418.766C492.074 417.039 492.283 415.297 492.851 413.657C493.418 412.018 494.331 410.52 495.528 409.264C497.999 406.544 511.718 399.013 513.607 403.93C515.65 409.347 502.097 421.676 492.238 418.766Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_144" d="M492.238 418.802L505.768 408.325" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_145" d="M485.668 342.139L495.111 329.81" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_146"
+                                    d="M492.239 333.504C492.073 331.776 492.281 330.033 492.849 328.394C493.416 326.754 494.331 325.256 495.529 324.001C498 321.281 511.72 313.75 513.608 318.656C515.651 324.06 502.098 336.378 492.239 333.504Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_147" d="M492.238 333.504L505.768 323.039" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_148" d="M485.668 300.043L495.111 287.713" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_149"
+                                    d="M492.238 291.407C492.081 289.689 492.293 287.958 492.861 286.329C493.428 284.701 494.338 283.212 495.528 281.964C497.999 279.244 511.718 271.713 513.607 276.63C515.65 281.964 502.097 294.294 492.238 291.407Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_150" d="M492.238 291.407L505.768 280.942" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_151" d="M485.668 244.404L495.111 232.075" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_152"
+                                    d="M492.237 235.769C492.079 234.052 492.292 232.32 492.859 230.691C493.427 229.062 494.336 227.574 495.527 226.326C497.998 223.606 511.717 216.075 513.606 220.993C515.649 226.338 502.096 238.644 492.237 235.769Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_153" d="M492.238 235.769L505.768 225.305" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_154" d="M485.668 200.657L495.111 188.339" stroke="#263238"
+                                    stroke-width="2" stroke-miterlimit="10" />
+                                <path id="Vector_155"
+                                    d="M492.239 192.033C492.073 190.306 492.281 188.563 492.849 186.923C493.416 185.284 494.331 183.785 495.529 182.531C498 179.811 511.72 172.28 513.608 177.185C515.651 182.59 502.098 194.908 492.239 192.033Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_156" d="M492.238 192.033L505.768 181.568" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_157"
+                                    d="M485.099 172.636C484.935 170.909 485.144 169.167 485.712 167.528C486.279 165.888 487.193 164.39 488.389 163.134C490.86 160.414 504.579 152.883 506.468 157.8C508.523 163.181 494.958 175.511 485.099 172.636Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_158" d="M485.099 172.636L498.628 162.16" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_159"
+                                    d="M485.764 173.218C484.039 173.194 482.338 172.802 480.777 172.066C479.216 171.33 477.83 170.269 476.713 168.954C474.266 166.21 468.22 151.778 473.304 150.424C478.828 148.939 489.661 163.715 485.764 173.218Z"
+                                    fill="#222222" stroke="#263238" stroke-miterlimit="10" />
+                                <path id="Vector_160" d="M485.764 173.218L476.772 158.667" stroke="#263238"
+                                    stroke-width="0.5" stroke-miterlimit="10" />
+                                <path id="Vector_161"
+                                    d="M497.393 527.963H467.175L463.397 451.646H501.17L497.393 527.963Z" fill="#263238"
+                                    stroke="#263238" stroke-miterlimit="10" />
+                            </g>
+                            <g id="character-2">
+                                <path id="Vector_162" opacity="0.2"
+                                    d="M363.822 551.803C398.263 551.803 426.183 543.826 426.183 533.985C426.183 524.145 398.263 516.168 363.822 516.168C329.381 516.168 301.461 524.145 301.461 533.985C301.461 543.826 329.381 551.803 363.822 551.803Z"
+                                    fill="black" />
+                                <path id="Vector_163"
+                                    d="M236.724 188.03C236.724 188.03 232.27 191.297 232.27 194.266C232.27 197.236 234.645 206.442 236.724 207.629C239.516 208.902 242.565 209.512 245.633 209.411C247.414 209.114 250.978 206.442 250.087 205.551L249.196 204.66L246.227 204.066C247.506 204.035 248.748 203.621 249.79 202.878C251.275 201.69 251.869 198.424 251.869 198.424C251.869 198.424 249.79 193.672 247.414 193.079C245.039 192.485 236.724 188.03 236.724 188.03Z"
+                                    fill="white" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_164"
+                                    d="M275.328 196.048C275.328 196.048 259.293 183.576 256.026 183.279C252.158 182.883 248.252 183.083 244.445 183.873C241.178 184.764 236.724 186.248 236.724 188.03C236.724 189.812 235.833 199.314 235.833 201.987C235.833 204.66 239.693 208.52 241.178 208.52C242.663 208.52 243.257 207.926 243.257 206.144C243.257 204.363 240.584 201.69 240.584 201.69L242.96 196.939L247.711 197.236C247.711 197.236 251.869 204.66 257.214 205.254C260.172 205.626 263.165 205.626 266.123 205.254L273.547 209.114L280.377 202.284L275.328 196.048Z"
+                                    fill="white" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_165" d="M248.78 191.962L243.673 190.049" stroke="#263238"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_166"
+                                    d="M237.318 201.394L237.615 218.914L246.524 219.211V201.097L237.318 201.394Z"
+                                    fill="#222222" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <g id="Vector_167">
+                                    <path
+                                        d="M253.947 188.625C253.947 188.625 247.117 192.188 242.366 195.455C237.615 198.721 232.863 198.721 234.348 200.8C235.833 202.878 236.427 203.472 240.287 202.878C244.148 202.285 249.493 200.8 249.493 200.8C253.223 201.449 256.993 201.846 260.777 201.988C265.232 201.988 269.092 198.721 269.092 198.721"
+                                        fill="white" />
+                                    <path
+                                        d="M253.947 188.625C253.947 188.625 247.117 192.188 242.366 195.455C237.615 198.721 232.863 198.721 234.348 200.8C235.833 202.878 236.427 203.472 240.287 202.878C244.148 202.285 249.493 200.8 249.493 200.8C253.223 201.449 256.993 201.846 260.777 201.988C265.232 201.988 269.092 198.721 269.092 198.721"
+                                        stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+                                <path id="Vector_168"
+                                    d="M287.504 205.848L281.862 199.315C281.862 199.315 277.407 197.83 272.359 202.878C267.311 207.927 267.608 211.49 267.608 211.49L272.062 217.429C272.062 217.429 281.565 205.848 287.504 205.848Z"
+                                    fill="#263238" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_169"
+                                    d="M343.404 515.241C343.404 515.241 332.167 522.641 324.505 527.749C316.844 532.857 322.724 535.66 328.069 536.682C333.414 537.703 346.706 535.411 351.825 534.638C356.945 533.866 372.494 529.531 374.537 526.977C376.58 524.423 376.58 521.881 375.048 521.109C373.515 520.337 352.075 514.22 349.782 514.22C347.63 514.366 345.495 514.708 343.404 515.241V515.241Z"
+                                    fill="white" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_170"
+                                    d="M322.094 530.255C322.094 530.255 326.025 533.498 337.536 534.187C349.046 534.876 364.107 527.06 364.107 527.06"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_171"
+                                    d="M322.094 530.255C322.094 530.255 326.025 533.498 337.536 534.187C349.046 534.876 364.107 527.06 364.107 527.06"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_172"
+                                    d="M370.711 521.62C366.851 524.885 362.762 527.87 358.476 530.552C351.848 534.638 343.426 537.964 344.947 542.3C346.467 546.635 359.498 546.635 367.931 545.863C376.365 545.091 380.178 542.799 386.556 540.756C392.935 538.713 398.054 534.888 399.325 531.823C400.596 528.759 374.286 520.919 370.711 521.62Z"
+                                    fill="white" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_173"
+                                    d="M345.41 539.924C345.41 539.924 347.952 542.929 364.594 542.3C374.493 541.916 384.124 538.969 392.543 533.748"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_174"
+                                    d="M320.466 404.868C320.466 404.868 320.146 424.444 321.773 431.297C323.4 438.151 328.306 440.111 329.601 440.111C330.895 440.111 323.733 402.908 323.733 402.908C323.733 402.908 319.777 403.241 320.466 404.868Z"
+                                    fill="#222222" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_175"
+                                    d="M322.39 401.281C322.39 401.281 318.482 399.321 318.482 401.935C318.482 404.548 320.11 410.451 321.416 410.451H322.723L322.39 401.281Z"
+                                    fill="#222222" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_176"
+                                    d="M317.828 318.727C317.828 318.727 313.576 360.824 317.828 383.665C322.081 406.507 330.55 452.179 332.51 457.726C334.47 463.274 344.911 504.052 344.911 504.052C344.911 504.052 342.298 507.615 342.298 508.946C342.298 510.276 341.965 515.146 341.965 515.146C346.363 517.393 350.95 519.249 355.673 520.693C362.526 522.653 367.42 523.627 367.42 523.627C367.42 523.627 375.248 526.24 380.142 528.2C385.036 530.16 396.772 534.722 396.772 534.722C399.707 532.731 402.343 530.331 404.599 527.595C407.545 523.675 406.239 513.234 405.253 510.62C404.267 508.007 402.651 504.099 402.651 499.859C402.651 495.618 402.319 451.894 402.319 450.588C402.319 449.281 405.585 365.42 405.585 359.873V324.274C405.585 323.3 386.663 323.621 367.076 323.621C347.489 323.621 317.187 313.833 317.187 313.833L317.828 318.727Z"
+                                    fill="#222222" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_177"
+                                    d="M338.058 337.994L348.499 349.741C348.499 349.741 355.352 436.857 357.3 445.67C359.248 454.484 371.994 511.25 371.994 511.25C371.994 511.25 368.074 513.21 369.048 516.477C370.022 519.743 367.421 523.604 367.421 523.604"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_178"
+                                    d="M375.582 411.722C375.582 411.722 374.596 427.71 375.582 435.217C376.568 442.724 379.49 445.005 383.077 445.005C386.664 445.005 400.704 442.392 402.985 441.738C405.266 441.085 405.919 436.845 405.266 430.644C404.612 424.444 402.332 407.481 402.332 407.481C402.332 407.481 387.983 411.389 375.582 411.722Z"
+                                    fill="#222222" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_179"
+                                    d="M403.615 401.935C403.615 401.935 396.108 404.548 390.893 404.548C385.679 404.548 374.264 405.201 374.264 405.201V413.029C377.595 413.651 380.989 413.871 384.372 413.682C389.919 413.35 403.627 410.119 403.627 410.119C403.446 407.394 403.442 404.66 403.615 401.935Z"
+                                    fill="#222222" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_180"
+                                    d="M375.582 335.701C375.582 335.701 375.903 345.81 380.476 351.357C381.718 352.95 383.3 354.246 385.106 355.15C386.912 356.054 388.897 356.544 390.917 356.583"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_181" d="M393.755 398.501L393.85 403.894" stroke="#263238"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_182" d="M392.687 339.384L393.649 392.955" stroke="#263238"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_183" d="M392.544 331.781L392.603 335.143" stroke="#263238"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_184"
+                                    d="M394.516 505.62C395.241 511.167 396.892 514.303 398.745 514.826C401.026 515.479 401.358 520.373 398.745 521.68L396.132 522.986C396.132 522.986 394.825 521.359 397.118 525.92C399.41 530.481 394.172 533.427 394.172 533.427"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_185"
+                                    d="M394.172 445.658C394.172 445.658 393.851 493.29 394.172 501.486" stroke="#263238"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_186"
+                                    d="M312.282 306.659C312.282 306.659 312.603 316.161 313.256 317.753C313.91 319.345 321.417 329.501 340.659 332.054C359.902 334.608 383.077 332.054 404.945 327.493C404.945 327.493 411.145 323.93 412.072 321.946C412.998 319.962 411.098 311.826 411.098 311.826C411.098 311.826 385.643 318.359 366.72 318.359C347.798 318.359 320.716 307.918 316.832 306.611C312.947 305.305 312.282 306.659 312.282 306.659Z"
+                                    fill="#263238" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_187"
+                                    d="M345.41 171.995C340.09 174.593 335.021 177.674 330.265 181.2C324.326 185.952 320.465 198.127 317.496 204.957C314.526 211.787 311.557 224.556 311.557 224.556C311.557 224.556 299.084 211.787 294.63 206.739C290.176 201.69 282.455 203.175 275.625 210.005C268.795 216.835 270.28 221.883 273.546 228.12C276.813 234.356 297.897 256.033 305.023 261.973C312.15 267.912 314.526 266.427 314.526 266.427C314.526 266.427 309.181 301.171 310.369 305.922C311.557 310.674 325.514 321.661 344.816 324.334C364.118 327.006 393.517 324.631 400.644 321.067C407.771 317.504 412.819 316.613 414.304 312.455C415.433 308.571 416.228 304.597 416.679 300.577C416.679 300.577 419.946 208.817 418.461 196.939C416.976 185.061 416.085 181.2 412.522 178.528C408.958 175.855 396.486 172.886 384.905 172.589C373.324 172.292 345.41 171.995 345.41 171.995Z"
+                                    fill="#E9E9E9" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_188"
+                                    d="M381.64 279.79C381.64 279.79 385.797 297.607 388.767 303.547C390.353 306.622 391.742 309.796 392.924 313.049L385.203 315.722C382.071 309.664 379.583 303.294 377.779 296.717C376.536 292.022 375.544 287.264 374.81 282.463L381.64 279.79Z"
+                                    fill="#263238" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_189"
+                                    d="M321.06 269.99L323.732 276.523L313.636 293.747L313.339 284.244L321.06 269.99Z"
+                                    fill="#263238" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_190"
+                                    d="M354.319 188.03C354.319 188.03 350.756 211.193 344.52 251.579C338.283 291.965 340.659 322.552 340.659 322.552"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_191"
+                                    d="M375.699 239.713C383.456 240.318 391.759 240.081 397.971 237.622"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_192"
+                                    d="M353.131 235.84C359.007 237.371 364.979 238.506 371.008 239.238" stroke="#263238"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_193"
+                                    d="M326.964 194.385C327.546 192.591 328.152 190.952 328.781 189.515"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_194" d="M314.527 266.427C314.527 266.427 318.863 222.608 325.74 198.4"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_195"
+                                    d="M331.572 232.051C333.838 232.822 336.193 233.297 338.58 233.465" stroke="#263238"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_196"
+                                    d="M321.357 226.635C323.547 228.293 325.918 229.696 328.425 230.816"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_197"
+                                    d="M316.605 264.646C316.605 264.646 325.811 270.882 336.799 271.179"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_198" d="M354.64 274.35C367.99 277.294 381.76 277.829 395.299 275.929"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_199"
+                                    d="M348.083 272.663C348.083 272.663 349.271 273.055 351.445 273.601"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_200"
+                                    d="M311.558 224.556C311.558 224.556 310.964 237.919 314.23 245.343" stroke="#263238"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <g id="Vector_201">
+                                    <path d="M358.916 296.526C358.03 298.047 357.268 299.636 356.636 301.278Z"
+                                        fill="white" />
+                                    <path d="M358.916 296.526C358.03 298.047 357.268 299.636 356.636 301.278"
+                                        stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+                                <path id="Vector_202" d="M373.241 285.29C373.241 285.29 365.841 286.477 360.175 294.59"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_203"
+                                    d="M353.131 187.437C353.131 187.437 358.477 191.594 373.918 189.812C389.36 188.031 401.832 181.794 407.178 181.2C412.523 180.607 414.304 180.31 414.304 180.31C414.304 180.31 408.068 168.134 400.347 163.086C392.627 158.038 384.312 155.365 379.264 155.365C374.215 155.365 360.258 159.82 351.647 166.353C343.035 172.886 339.471 171.104 343.629 177.043C346.379 180.867 349.569 184.355 353.131 187.437V187.437Z"
+                                    fill="#263238" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_204"
+                                    d="M351.646 163.086C351.646 163.086 352.239 185.061 353.13 187.436C354.021 189.812 378.966 172.292 381.341 167.837C383.717 163.383 388.171 140.22 388.171 140.22C388.171 140.22 377.778 142.299 374.214 144.675C370.651 147.05 365.602 153.88 360.257 156.553C357.012 158.187 354.094 160.401 351.646 163.086Z"
+                                    fill="white" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_205"
+                                    d="M372.729 154.177L361.196 156.042C360.887 156.22 360.566 156.398 360.257 156.553C357.012 158.187 354.094 160.401 351.646 163.086C351.646 163.086 351.729 166.008 351.871 169.833C369.166 163.383 372.729 154.177 372.729 154.177Z"
+                                    fill="#263238" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_206"
+                                    d="M339.174 117.355C339.174 117.355 337.689 133.093 337.689 138.142C337.689 143.19 336.501 161.304 341.549 164.274C346.598 167.243 359.961 164.274 363.524 162.195C367.088 160.116 371.542 156.256 372.73 154.177C373.492 152.827 374.186 151.44 374.809 150.02C376.323 148.65 377.909 147.361 379.56 146.159C381.342 144.972 385.499 145.862 386.984 140.814C388.469 135.766 389.953 133.984 388.469 128.639C386.984 123.294 381.936 114.385 379.263 112.009C376.59 109.634 361.446 103.101 354.913 105.773C348.379 108.446 340.065 112.9 339.174 117.355Z"
+                                    fill="white" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_207"
+                                    d="M346.302 126.264C346.108 128.852 345.401 131.375 344.223 133.688C342.442 136.657 338.581 138.142 341.551 139.924C343.873 141.131 346.383 141.934 348.975 142.299"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_208"
+                                    d="M344.817 146.753C344.817 146.753 354.914 149.723 359.665 140.517"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_209"
+                                    d="M354.176 131.918C355.082 131.918 355.816 130.785 355.816 129.388C355.816 127.99 355.082 126.857 354.176 126.857C353.271 126.857 352.537 127.99 352.537 129.388C352.537 130.785 353.271 131.918 354.176 131.918Z"
+                                    fill="#263238" />
+                                <path id="Vector_210"
+                                    d="M342.298 129.838C343.204 129.838 343.938 128.706 343.938 127.308C343.938 125.911 343.204 124.778 342.298 124.778C341.393 124.778 340.659 125.911 340.659 127.308C340.659 128.706 341.393 129.838 342.298 129.838Z"
+                                    fill="#263238" />
+                                <path id="Vector_211"
+                                    d="M351.943 122.7C353.31 122.38 354.728 122.348 356.108 122.603C357.488 122.859 358.8 123.397 359.961 124.184"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_212"
+                                    d="M340.362 121.215C340.362 121.215 344.223 118.543 346.598 121.215"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_213"
+                                    d="M345.114 86.7682C345.114 86.7682 337.393 88.253 333.533 94.4891C330.977 98.8092 328.886 103.388 327.296 108.149L338.581 104.883C338.581 104.883 335.611 112.307 331.751 114.088C327.89 115.87 325.218 116.761 325.218 116.761C325.218 116.761 332.642 120.027 340.066 119.137C347.49 118.246 358.18 111.119 358.18 111.119L353.726 118.543C353.726 118.543 351.35 119.73 361.447 118.543C371.543 117.355 375.404 115.573 375.404 115.573C375.404 115.573 369.761 125.373 369.167 126.264C368.156 127.427 367.065 128.519 365.901 129.53L371.84 129.827C371.84 129.827 369.167 130.718 369.167 132.5C369.167 134.281 368.574 138.439 368.574 138.439L374.513 135.766L374.216 137.845C375.583 137.466 376.971 137.168 378.373 136.954C380.099 136.619 381.789 136.122 383.421 135.469C383.421 135.469 384.015 140.814 383.124 142.893C382.234 144.972 377.185 146.754 377.185 146.754L376.591 152.693C378.674 152.722 380.757 152.623 382.827 152.396C383.718 152.099 385.203 150.02 385.203 150.02L383.718 154.474C383.718 154.474 385.203 154.771 389.954 152.99C394.706 151.208 398.269 141.705 398.269 141.705C398.269 141.705 405.396 127.748 405.99 118.246C406.584 108.743 400.645 95.38 393.815 89.7378C386.985 84.0956 360.853 75.4839 345.114 86.7682Z"
+                                    fill="#263238" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <g id="Vector_214">
+                                    <path
+                                        d="M401.238 198.424C401.238 198.424 392.033 214.163 393.815 220.102C395.596 226.041 410.741 267.318 410.741 267.318C406.939 270.535 402.865 273.416 398.566 275.93C392.627 279.196 383.267 282.724 383.267 285.991C383.267 289.257 385.82 301.789 389.978 302.977C394.135 304.165 403.317 304.438 416.68 300.601C430.043 296.764 449.049 280.705 451.721 272.093C454.394 263.481 449.346 248.931 446.673 243.882C444 238.834 430.34 204.387 425.589 195.181C420.838 185.976 413.117 182.982 410.444 183.576"
+                                        fill="#E9E9E9" />
+                                    <path
+                                        d="M401.238 198.424C401.238 198.424 392.033 214.163 393.815 220.102C395.596 226.041 410.741 267.318 410.741 267.318C406.939 270.535 402.865 273.416 398.566 275.93C392.627 279.196 383.267 282.724 383.267 285.991C383.267 289.257 385.82 301.789 389.978 302.977C394.135 304.165 403.317 304.438 416.68 300.601C430.043 296.764 449.049 280.705 451.721 272.093C454.394 263.481 449.346 248.931 446.673 243.882C444 238.834 430.34 204.387 425.589 195.181C420.838 185.976 413.117 182.982 410.444 183.576"
+                                        stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+                                <path id="Vector_215"
+                                    d="M435.686 268.28C437.235 267.916 438.744 267.395 440.187 266.724" stroke="#263238"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_216" d="M410.74 267.318C410.74 267.318 421.74 270.204 431.943 268.945"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_217"
+                                    d="M423.249 218.023C424.211 217.774 425.197 217.56 426.183 217.394" stroke="#263238"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_218"
+                                    d="M399.457 233.465C399.457 233.465 408.342 223.499 420.006 219.104"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_219"
+                                    d="M438.312 247.885C439.214 247.885 440.117 247.885 441.032 248.015"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_220"
+                                    d="M409.851 258.409C409.851 258.409 419.983 250.308 432.716 248.325"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <g id="character-1">
+                                <path id="Vector_221" opacity="0.2"
+                                    d="M125.068 551.803C159.509 551.803 187.429 543.826 187.429 533.986C187.429 524.146 159.509 516.168 125.068 516.168C90.627 516.168 62.707 524.146 62.707 533.986C62.707 543.826 90.627 551.803 125.068 551.803Z"
+                                    fill="black" />
+                                <path id="Vector_222"
+                                    d="M85.5494 289.59C85.5494 289.59 75.4766 305.626 75.8686 319.488C76.2606 333.35 85.7751 401.84 85.7751 401.84C85.7751 401.84 80.6199 425.597 82.6036 436.287C84.5872 446.978 100.813 516.667 100.813 516.667C100.813 516.667 99.6251 534.081 102.405 541.208C105.184 548.335 114.675 555.462 117.051 552.694C119.426 549.927 122.99 549.131 119.034 536.457C115.079 523.783 111.907 517.059 111.907 513.104C111.907 509.148 110.316 472.718 112.299 465.187C114.283 457.656 116.255 409.359 116.255 401.84V374.912L119.818 333.742L137.636 426.393C137.636 426.393 130.509 437.867 128.929 445.398C127.349 452.929 124.57 489.347 122.99 495.679C121.41 502.01 118.63 522.203 117.846 524.578C117.062 526.954 119.818 528.938 122.194 529.33C124.57 529.722 140.807 536.065 145.166 535.673C149.526 535.281 156.249 534.485 153.873 531.313C151.498 528.142 135.26 511.916 134.868 510.728C134.476 509.54 158.233 449.745 161 440.646C163.768 431.548 165.36 425.597 166.547 420.049C167.735 414.502 167.735 347.2 164.564 319.488C161.392 291.776 162.129 288.509 162.129 288.509L91.3103 279.886L85.5494 289.59Z"
+                                    fill="#263238" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_223"
+                                    d="M121.292 165.997C121.292 165.997 120.211 171.936 119.676 178.896C119.142 185.857 116.992 186.415 114.842 187.484C112.692 188.553 92.8074 193.934 90.6575 195.277C88.5075 196.619 86.9039 224.568 88.5075 233.465C90.1111 242.362 90.3961 272.664 90.3961 272.664C90.3961 272.664 85.5498 288.509 85.5498 289.59C85.5498 290.671 106.242 298.986 129.618 298.725C152.995 298.463 161.321 292.001 162.129 288.509C162.937 285.017 165.621 261.914 165.621 261.106C165.621 260.298 172.321 277.736 176.597 278.187C180.873 278.638 223.065 265.786 223.065 265.786C223.065 265.786 242.272 268.162 245.8 268.162C249.328 268.162 251.466 263.66 250.492 261.32C249.518 258.98 234.551 250.76 229.728 250.225C224.906 249.691 214.631 255.88 214.631 255.88L188.713 252.185C188.713 252.185 174.209 211.609 169.909 202.748C165.609 193.887 166.144 192.271 158.352 189.314C150.56 186.356 140.356 183.375 140.356 183.375L139.822 173.432L121.292 165.997Z"
+                                    fill="#E9E9E9" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_224"
+                                    d="M249.326 264.348C249.326 264.348 258.093 261.426 258.259 260.191C258.425 258.956 258.865 250.795 258.188 249.322C257.511 247.849 257 249.156 255.741 253.42C254.482 257.685 252.831 259.217 249.089 260.737C245.347 262.258 249.326 264.348 249.326 264.348Z"
+                                    fill="white" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_225"
+                                    d="M229.74 250.285C224.929 249.75 214.643 255.939 214.643 255.939L199.035 253.777C195.637 255.713 194.414 260.31 195.352 265.394C196.101 269.421 199.023 271.226 202.04 271.986C212.908 268.886 223.076 265.786 223.076 265.786C223.076 265.786 242.283 268.162 245.811 268.162C249.339 268.162 251.477 263.66 250.503 261.32C249.529 258.98 234.562 250.819 229.74 250.285Z"
+                                    fill="white" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_226" d="M256.823 213.628H222.768V259.158H256.823V213.628Z"
+                                    fill="#222222" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_227" d="M254.565 226.813H227.103V251.734H254.565V226.813Z" fill="white"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_228"
+                                    d="M230.786 230.923C231.974 230.923 232.413 231.589 232.413 232.693V233.572C232.413 234.76 231.879 235.318 230.727 235.318H230.002V238.217H229.194V230.947L230.786 230.923ZM230.727 234.594C231.321 234.594 231.617 234.309 231.617 233.62V232.658C231.617 231.992 231.38 231.66 230.786 231.66H230.002V234.653L230.727 234.594Z"
+                                    fill="#263238" />
+                                <path id="Vector_229"
+                                    d="M233.053 238.217V230.947H233.86V237.468H235.939V238.217H233.053Z"
+                                    fill="#263238" />
+                                <path id="Vector_230"
+                                    d="M239.135 234.143V234.867H237.317V237.445H239.503V238.217H236.51V230.947H239.503V231.684H237.317V234.166L239.135 234.143Z"
+                                    fill="#263238" />
+                                <path id="Vector_231"
+                                    d="M241.119 236.72L240.881 238.217H240.133L241.523 230.947H242.71L244.1 238.217H243.257L242.984 236.744L241.119 236.72ZM241.226 236.031H242.841L242.021 231.826L241.226 236.031Z"
+                                    fill="#263238" />
+                                <path id="Vector_232"
+                                    d="M247.83 232.658V232.86H247.058V232.622C247.058 231.969 246.808 231.577 246.226 231.577C245.644 231.577 245.395 231.969 245.395 232.61C245.395 234.238 247.842 234.392 247.842 236.447C247.842 237.54 247.307 238.264 246.203 238.264C245.098 238.264 244.563 237.54 244.563 236.447V236.031H245.324V236.483C245.324 237.136 245.597 237.528 246.179 237.528C246.761 237.528 247.034 237.136 247.034 236.483C247.034 234.867 244.599 234.713 244.599 232.658C244.599 231.541 245.122 230.84 246.215 230.84C247.307 230.84 247.83 231.565 247.83 232.658Z"
+                                    fill="#263238" />
+                                <path id="Vector_233"
+                                    d="M251.133 234.143V234.867H249.363V237.445H251.572V238.217H248.591V230.947H251.572V231.684H249.399V234.166L251.133 234.143Z"
+                                    fill="#263238" />
+                                <path id="Vector_234"
+                                    d="M233.885 245.653V248.907H233.077V241.662H233.885V244.928H235.667V241.662H236.474V248.907H235.667V245.629L233.885 245.653Z"
+                                    fill="#263238" />
+                                <path id="Vector_235"
+                                    d="M239.895 244.881V245.605H238.125V248.195H240.299V248.907H237.317V241.662H240.299V242.398H238.125V244.881H239.895Z"
+                                    fill="#263238" />
+                                <path id="Vector_236"
+                                    d="M241.06 248.907V241.662H241.867V248.195H243.946V248.907H241.06Z"
+                                    fill="#263238" />
+                                <path id="Vector_237"
+                                    d="M246.143 241.662C247.331 241.662 247.782 242.339 247.782 243.431V244.31C247.82 244.544 247.802 244.783 247.73 245.009C247.659 245.234 247.536 245.44 247.371 245.609C247.206 245.779 247.004 245.907 246.78 245.985C246.557 246.063 246.318 246.087 246.084 246.057H245.371V248.907H244.563V241.662H246.143ZM246.084 245.332C246.69 245.332 246.975 245.059 246.975 244.358V243.396C246.975 242.731 246.737 242.398 246.143 242.398H245.371V245.344L246.084 245.332Z"
+                                    fill="#263238" />
+                                <path id="Vector_238" d="M256.823 213.628H222.768V219.568H256.823V213.628Z" fill="white"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_239"
+                                    d="M247.308 266.166C247.308 266.166 256.074 263.244 256.24 262.008C256.407 260.773 256.858 252.613 256.169 251.128C255.48 249.643 254.922 250.973 253.734 255.226C252.546 259.478 250.812 261.034 247.07 262.555C243.329 264.075 247.308 266.166 247.308 266.166Z"
+                                    fill="white" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <g id="Vector_240">
+                                    <path
+                                        d="M220.689 260.393C220.689 260.393 226.937 256.616 231.237 257.34C235.537 258.065 245.171 262.876 245.171 262.876C245.171 262.876 252.856 252.91 253.569 255.844C254.281 258.778 249.922 265.667 246.857 267.164C243.793 268.66 231.629 267.033 231.629 267.033"
+                                        fill="white" />
+                                    <path
+                                        d="M220.689 260.393C220.689 260.393 226.937 256.616 231.237 257.34C235.537 258.065 245.171 262.876 245.171 262.876C245.171 262.876 252.856 252.91 253.569 255.844C254.281 258.778 249.922 265.667 246.857 267.164C243.793 268.66 231.629 267.033 231.629 267.033"
+                                        stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+                                <path id="Vector_241"
+                                    d="M132.788 202.807C147.304 200.657 140.319 183.458 140.319 183.458L139.773 173.516L121.243 165.997C121.243 165.997 120.162 171.936 119.627 178.896C119.164 184.99 117.465 187.805 115.612 189.147C117.061 193.875 121.516 204.482 132.788 202.807Z"
+                                    fill="white" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_242"
+                                    d="M159.444 133.759C160.994 137.975 161.798 142.428 161.819 146.92C161.819 154.178 158.862 163.846 162.9 166.804C166.939 169.762 169.885 167.066 169.885 167.066C169.885 167.066 170.146 175.131 161.012 178.944C151.877 182.757 144.382 182.436 137.647 178.136C130.912 173.836 130.924 162.279 130.924 152.336C130.924 142.394 131.458 135.956 131.732 135.149C132.005 134.341 158.327 134.341 158.327 134.341L159.444 133.759Z"
+                                    fill="#263238" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_243"
+                                    d="M154.871 135.362C154.871 135.362 156.748 153.904 156.748 160.307C156.748 166.709 150.036 175.891 142.244 178.041C134.452 180.191 126.933 174.81 121.291 165.949C115.649 157.088 120.21 137.738 120.21 137.738C120.21 137.738 147.613 133.759 154.871 135.362Z"
+                                    fill="white" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_244"
+                                    d="M148.159 144.235C148.159 144.235 147.078 147.193 147.613 149.07C148.147 150.947 152.721 152.562 150.309 154.712C147.898 156.862 143.859 156.862 143.859 156.862"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_245"
+                                    d="M137.41 159.82C138.722 161.128 140.399 162.007 142.221 162.342C144.042 162.677 145.923 162.452 147.614 161.697"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_246"
+                                    d="M139.559 146.385C139.559 147.716 138.894 148.761 138.074 148.761C137.255 148.761 136.602 147.68 136.602 146.385C136.602 145.091 137.267 144.01 138.074 144.01C138.882 144.01 139.559 145.043 139.559 146.385Z"
+                                    fill="#263238" />
+                                <path id="Vector_247"
+                                    d="M152.982 146.385C152.982 147.716 152.317 148.761 151.497 148.761C150.678 148.761 150.024 147.68 150.024 146.385C150.024 145.091 150.69 144.01 151.497 144.01C152.305 144.01 152.982 145.043 152.982 146.385Z"
+                                    fill="#263238" />
+                                <path id="Vector_248"
+                                    d="M132.576 141.278C132.576 141.278 133.918 139.401 139.287 139.936"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_249"
+                                    d="M149.229 140.197C149.229 140.197 151.913 138.593 154.609 142.085"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_250"
+                                    d="M129.084 136.705C129.084 136.705 124.784 152.028 124.511 160.355C124.238 168.681 125.592 174.323 129.084 173.516C130.821 173.245 132.486 172.627 133.978 171.698C134.468 173.647 134.344 175.699 133.623 177.574C132.902 179.449 131.62 181.056 129.951 182.175C124.012 186.202 113.821 190.49 103.617 187.283C93.4137 184.076 94.2095 166.329 97.4404 160.141C99.7674 155.268 101.479 150.125 102.536 144.83C103.023 142.62 119.95 133.759 129.084 136.705Z"
+                                    fill="#263238" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_251"
+                                    d="M154.871 119.517C154.871 119.517 149.502 108.826 146.556 106.083C143.61 103.339 113.226 92.9215 110.22 92.3751C107.215 91.8287 95.9664 96.4137 94.1015 100.69C92.2366 104.966 76.6404 127.285 75.8327 131.573C75.0249 135.861 74.4904 153.334 76.6404 154.403C78.7904 155.472 77.9826 157.088 78.7904 155.484C79.5981 153.881 87.4377 131.312 89.3145 129.72C91.3583 128.215 93.5146 126.869 95.7644 125.694L97.6412 133.486C97.6412 133.486 122.586 124.625 130.96 122.736C139.334 120.847 154.871 119.517 154.871 119.517Z"
+                                    fill="#222222" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_252"
+                                    d="M99.6724 149.509C105.738 145.587 112.318 142.525 119.224 140.411C129.226 137.679 161.048 136.325 161.048 136.325C161.048 136.325 158.316 123.14 156.95 119.505C155.584 115.87 138.312 114.504 123.31 119.956C108.308 125.408 95.123 131.312 95.123 134.044C95.123 136.776 99.6724 149.509 99.6724 149.509Z"
+                                    fill="white" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_253"
+                                    d="M84.4799 161.97C84.4799 163.246 84.1016 164.493 83.3929 165.553C82.6842 166.614 81.6768 167.441 80.4983 167.929C79.3197 168.417 78.0228 168.545 76.7717 168.296C75.5205 168.047 74.3713 167.433 73.4692 166.531C72.5672 165.629 71.9529 164.479 71.704 163.228C71.4551 161.977 71.5829 160.68 72.0711 159.502C72.5592 158.323 73.3859 157.316 74.4466 156.607C75.5073 155.898 76.7543 155.52 78.03 155.52C78.877 155.52 79.7157 155.687 80.4983 156.011C81.2808 156.335 81.9918 156.81 82.5908 157.409C83.1897 158.008 83.6648 158.719 83.9889 159.502C84.3131 160.284 84.4799 161.123 84.4799 161.97V161.97Z"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_254"
+                                    d="M112.419 188.031C112.419 188.031 108.392 264.598 108.392 268.364C108.451 269.955 107.9 271.509 106.851 272.708C105.802 273.907 104.335 274.66 102.75 274.814C99.7922 275.075 90.3965 272.664 90.3965 272.664L89.3155 275.609L96.0386 278.306L88.5078 373.95C99.1307 379.614 110.921 382.74 122.955 383.084C142.827 383.619 167.011 374.211 169.435 372.394C170.742 371.372 171.992 370.277 173.176 369.115L166.192 286.359C166.192 286.359 169.149 252.779 165.123 240.414C161.096 228.049 144.93 185.073 144.93 185.073L143.053 184.539L154.931 224.568C154.931 224.568 131.02 229.403 113.82 226.184L114.901 187.484L112.419 188.031Z"
+                                    fill="#222222" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_255"
+                                    d="M156.605 282.559C151.925 290.375 143.313 302.265 130.781 309.997"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_256"
+                                    d="M160.811 274.671C160.811 274.671 160.182 276.108 158.935 278.46" stroke="#263238"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_257"
+                                    d="M146.676 303.547C146.676 303.547 133.134 312.384 129.013 318.264"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <g id="Vector_258">
+                                    <path
+                                        d="M97.9142 193.934C94.5566 194.409 91.2941 195.407 88.2453 196.892C83.4108 199.267 75.3455 218.653 73.1955 224.568C71.0455 230.484 62.5051 253.076 62.5051 253.076C62.5051 253.076 58.4783 247.707 54.1903 240.723C49.9022 233.738 52.0165 229.676 52.0165 225.376C52.0165 221.076 53.3588 220.541 51.2088 215.968C49.0588 211.395 45.2697 210.326 42.894 211.134C40.5183 211.942 38.3327 217.311 39.1286 223.76C39.9244 230.21 43.7017 243.371 45.5191 251.164C47.3365 258.956 50.0922 271.582 54.3922 277.759C58.6921 283.936 60.5689 289.043 61.6379 288.45C62.707 287.856 87.4376 249.251 90.1458 244.654C92.8541 240.057 95.788 233.905 96.857 229.07"
+                                        fill="#E9E9E9" />
+                                    <path
+                                        d="M97.9142 193.934C94.5566 194.409 91.2941 195.407 88.2453 196.892C83.4108 199.267 75.3455 218.653 73.1955 224.568C71.0455 230.484 62.5051 253.076 62.5051 253.076C62.5051 253.076 58.4783 247.707 54.1903 240.723C49.9022 233.738 52.0165 229.676 52.0165 225.376C52.0165 221.076 53.3588 220.541 51.2088 215.968C49.0588 211.395 45.2697 210.326 42.894 211.134C40.5183 211.942 38.3327 217.311 39.1286 223.76C39.9244 230.21 43.7017 243.371 45.5191 251.164C47.3365 258.956 50.0922 271.582 54.3922 277.759C58.6921 283.936 60.5689 289.043 61.6379 288.45C62.707 287.856 87.4376 249.251 90.1458 244.654C92.8541 240.057 95.788 233.905 96.857 229.07"
+                                        stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+                                <path id="Vector_259"
+                                    d="M54.119 240.687C49.819 233.702 52.0165 229.676 52.0165 225.376C52.0165 221.076 53.3588 220.541 51.2088 215.968C49.0588 211.395 45.2697 210.326 42.894 211.134C40.5183 211.941 38.3327 217.31 39.1286 223.76C39.9244 230.21 43.7017 243.371 45.5191 251.163C45.9705 253.04 46.4694 255.19 47.0276 257.471C49.3271 256.791 51.4647 255.651 53.3113 254.121C55.6104 252.092 57.1761 249.362 57.7656 246.353C56.6372 244.666 55.39 242.754 54.119 240.687Z"
+                                    fill="white" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_260"
+                                    d="M48.3467 219.52C48.3467 219.52 51.4232 225.922 50.8649 228.476C50.3251 230.45 49.5599 232.355 48.5842 234.154"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_261"
+                                    d="M46.993 173.195C47.0267 172.586 47.2403 172 47.6067 171.512C47.9732 171.023 48.4761 170.655 49.052 170.452C49.6279 170.25 50.2508 170.222 50.8422 170.374C51.4336 170.525 51.9669 170.848 52.3747 171.302C52.7825 171.757 53.0466 172.322 53.1335 172.926C53.2204 173.53 53.1264 174.146 52.8632 174.697C52.6 175.248 52.1795 175.708 51.6548 176.02C51.13 176.332 50.5247 176.482 49.915 176.45C49.5093 176.429 49.1117 176.327 48.7451 176.152C48.3785 175.977 48.05 175.731 47.7786 175.429C47.5071 175.127 47.298 174.774 47.1632 174.39C47.0284 174.007 46.9706 173.601 46.993 173.195V173.195Z"
+                                    fill="#263238" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_262"
+                                    d="M47.3608 195.455L46.8144 224.402C46.8055 224.83 46.7106 225.252 46.5355 225.642C46.3604 226.033 46.1086 226.384 45.795 226.676C45.4815 226.967 45.1126 227.193 44.7103 227.339C44.3079 227.485 43.8803 227.549 43.4529 227.526V227.526C43.0156 227.505 42.5874 227.394 42.1948 227.2C41.8022 227.006 41.4536 226.734 41.1707 226.399C40.8878 226.065 40.6766 225.677 40.5502 225.257C40.4237 224.838 40.3848 224.398 40.4358 223.963L43.9043 194.457L47.3608 195.455Z"
+                                    fill="#263238" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_263"
+                                    d="M37.7626 177.638C38.4397 180.097 38.4278 185.477 38.416 190.858C38.416 199.363 51.4821 200.04 52.3729 191.583C52.9193 186.226 53.4657 180.892 54.4041 178.517C55.3425 176.141 56.2334 174.312 56.2334 174.312L47.1109 173.837L45.5073 173.754L36.3848 173.267C36.3848 173.267 37.0262 175.262 37.7626 177.638Z"
+                                    fill="white" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_264"
+                                    d="M40.5545 203.473C44.2487 203.247 48.4773 203.473 49.1306 205.409C50.1047 208.271 49.2851 210.089 46.9807 210.16C43.8804 210.267 37.5731 211.063 35.3043 210.611C33.0356 210.16 31.5864 205.112 35.3043 204.162C37.0353 203.804 38.79 203.574 40.5545 203.473V203.473Z"
+                                    fill="white" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_265"
+                                    d="M41.5526 210.73C45.2468 210.505 49.4754 210.73 50.1287 212.667C51.1028 215.529 50.2832 217.347 47.9788 217.418C44.8785 217.525 38.5593 218.321 36.3024 217.869C34.0455 217.418 32.5726 212.37 36.3024 211.419C38.0335 211.063 39.7882 210.833 41.5526 210.73V210.73Z"
+                                    fill="white" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_266"
+                                    d="M57.4688 210.956C58.2647 214.519 58.6567 218.784 56.8868 219.722C54.2023 221.136 52.2899 220.601 51.8504 218.332C51.2684 215.28 49.4747 209.174 49.5935 206.87C49.7123 204.565 54.4517 202.344 55.9603 205.836C56.5966 207.501 57.101 209.212 57.4688 210.956V210.956Z"
+                                    fill="white" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_267"
+                                    d="M41.3266 217.928C44.3556 217.738 47.8359 217.928 48.3704 219.52C49.1663 221.896 48.4892 223.357 46.6006 223.428C44.0586 223.511 38.8797 224.165 37.0148 223.796C35.1499 223.428 33.9621 219.283 37.0148 218.51C38.4338 218.199 39.8759 218.004 41.3266 217.928V217.928Z"
+                                    fill="white" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_268"
+                                    d="M42.3358 223.499C44.9371 223.333 47.9186 223.499 48.3818 224.853C49.0708 226.873 48.4887 228.156 46.8614 228.215C44.6758 228.298 40.2215 228.856 38.6298 228.536C37.0381 228.215 36.0047 224.663 38.6298 223.986C39.8504 223.727 41.0896 223.564 42.3358 223.499V223.499Z"
+                                    fill="white" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_269"
+                                    d="M153.874 531.314C151.498 528.142 135.261 511.917 134.869 510.729C134.619 509.98 143.813 486.319 151.427 466.47C140.392 468.466 131.151 463.691 126.97 460.982C125.58 474.381 124.036 491.521 122.99 495.679C121.411 502.01 118.631 522.203 117.847 524.579C117.063 526.954 119.819 528.938 122.194 529.33C124.57 529.722 140.808 536.065 145.167 535.673C149.526 535.281 156.25 534.485 153.874 531.314Z"
+                                    fill="#222222" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_270"
+                                    d="M117.051 552.694C119.427 549.926 122.99 549.131 119.035 536.456C115.079 523.782 111.908 517.059 111.908 513.104C111.908 509.148 110.316 472.718 112.3 465.187C112.3 464.949 112.419 464.676 112.49 464.367C106.551 466.339 95.6583 465.424 88.8164 464.545C94.126 487.934 100.813 516.667 100.813 516.667C100.813 516.667 99.6256 534.081 102.405 541.208C105.185 548.335 114.675 555.462 117.051 552.694Z"
+                                    fill="#222222" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_271"
+                                    d="M86.167 458.06C86.167 458.06 87.7468 471.922 89.7305 474.298C91.7142 476.674 101.609 476.674 104.78 476.282C107.952 475.89 113.879 475.486 114.283 473.11C114.687 470.734 115.067 458.856 115.067 457.276C115.067 455.697 106.752 457.276 100.421 457.276C94.0898 457.276 86.559 456.088 86.167 458.06Z"
+                                    fill="#222222" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <path id="Vector_272"
+                                    d="M125.865 454.401C125.865 454.401 123.287 468.156 124.475 471.031C125.663 473.906 135.688 477.113 138.99 477.754C142.292 478.396 148.386 479.928 149.502 477.754C150.619 475.58 154.658 464.427 155.133 462.918C155.608 461.41 146.818 460.246 140.416 458.167C134.013 456.088 126.851 452.691 125.865 454.401Z"
+                                    fill="#222222" stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                            <!-- lights -->
+                            <g id="Lights">
+                                <path id="Vector_273"
+                                    d="M6.1543 35.549C13.4742 39.6247 21.1373 43.0508 29.0556 45.7881C36.9465 48.6251 44.9791 51.0515 53.121 53.0576C57.1715 54.1623 61.2933 54.9581 65.3675 55.9203L71.5442 57.1081C73.5992 57.5119 75.6541 57.9277 77.7328 58.2959C81.8665 58.9611 85.9882 59.7094 90.1575 60.2083L96.3936 61.0398C98.4723 61.3249 100.563 61.4912 102.642 61.7287C119.326 63.4606 136.088 64.3446 152.863 64.3776C169.635 64.3776 186.395 63.5936 203.12 62.3227C236.566 59.4244 269.804 54.4857 302.648 47.5342C310.832 45.6931 319.04 43.9707 327.201 42.0227C335.361 40.0746 343.498 38.0434 351.61 35.9172C359.723 33.791 367.753 31.5341 375.818 29.2535L387.887 25.69L393.921 23.8964L396.962 22.9937L398.482 22.5423L399.242 22.3166L399.622 22.1978C399.741 22.1978 399.884 22.079 399.991 22.1978C406.037 25.3456 412.13 28.137 418.331 30.7858C424.531 33.4347 430.791 35.8816 437.122 38.1622C449.777 42.7571 462.701 46.5732 475.822 49.5891C488.94 52.6325 502.276 54.646 515.709 55.6114C522.42 56.1222 529.155 56.1697 535.902 56.039C542.628 55.8235 549.337 55.2446 556 54.3048"
+                                    stroke="#263238" stroke-linecap="round" stroke-linejoin="round" />
+                                <g id="Group 38">
+                                    <path id="odd"
+                                        d="M39.7219 49.0786L36.5029 48.0451L36.6336 42.2842C38.736 42.9494 40.8147 43.6502 42.9291 44.2797L39.7219 49.0786Z"
+                                        fill="#263238" />
+                                    <path id="odd"
+                                        d="M44.9488 41.4284C43.856 45.1226 41.9317 44.4099 39.5442 43.6259C37.1567 42.8419 35.1492 42.4381 36.3964 38.7439C37.2636 36.1901 40.637 33.0542 42.4662 31.4269C42.6019 31.3099 42.7654 31.2298 42.941 31.1942C43.1165 31.1586 43.2983 31.1687 43.4688 31.2236C43.6394 31.2784 43.793 31.3762 43.9148 31.5075C44.0367 31.6388 44.1228 31.7992 44.1648 31.9733C44.7231 34.3846 45.709 38.8271 44.9488 41.4284Z"
+                                        fill="#222222" />
+                                    <path id="odd"
+                                        d="M41.2548 38.5781C41.1465 39.0584 40.855 39.4774 40.4423 39.7459C40.0296 40.0144 39.5284 40.1111 39.0454 40.0154C38.612 39.8175 38.2714 39.4603 38.0944 39.0179C37.9175 38.5755 37.9177 38.082 38.0952 37.6397C38.2062 37.161 38.4983 36.7439 38.9102 36.4759C39.3222 36.2079 39.8219 36.1099 40.3045 36.2025C40.7321 36.407 41.0672 36.7648 41.2432 37.2049C41.4193 37.645 41.4234 38.1351 41.2548 38.5781V38.5781Z"
+                                        fill="white" />
+                                </g>
+                                <g id="Group 39">
+                                    <path id="even"
+                                        d="M75.7729 58.5215L79.1226 59.0679L79.9184 64.7932C77.6497 64.4012 75.3809 64.0805 73.124 63.6054L75.7729 58.5215Z"
+                                        fill="#263238" />
+                                    <path id="even"
+                                        d="M71.3773 66.6585C72.09 62.8693 74.1212 63.4751 76.6988 63.879C79.2764 64.2828 81.4501 64.4729 80.7849 68.2739C80.3692 70.9584 77.3521 74.51 75.5823 76.3631C75.4386 76.4973 75.2659 76.5968 75.0777 76.6538C74.8894 76.7107 74.6906 76.7236 74.4966 76.6914C74.3026 76.6593 74.1185 76.583 73.9587 76.4684C73.7989 76.3537 73.6675 76.2039 73.5748 76.0305C72.5177 73.7498 70.8785 69.3192 71.3773 66.6585Z"
+                                        fill="#222222" />
+                                    <path id="even"
+                                        d="M75.69 69.105C75.747 68.6028 75.9969 68.1424 76.387 67.821C76.7771 67.4996 77.2768 67.3424 77.7806 67.3826C78.1984 67.3954 78.6023 67.5352 78.9386 67.7834C79.2748 68.0317 79.5274 68.3765 79.6625 68.772C79.7977 69.1675 79.8091 69.5948 79.6951 69.997C79.5811 70.3991 79.3473 70.7569 79.0247 71.0226C78.7021 71.2884 78.3062 71.4495 77.8897 71.4844C77.4732 71.5193 77.0559 71.4264 76.6936 71.218C76.3313 71.0097 76.0411 70.6958 75.8618 70.3182C75.6825 69.9407 75.6226 69.5175 75.69 69.105V69.105Z"
+                                        fill="white" />
+                                </g>
+                                <g id="Group 40">
+                                    <path id="odd"
+                                        d="M127.705 63.3796L124.32 63.2252L122.978 57.6187L129.653 57.9394L127.705 63.3796Z"
+                                        fill="#263238" />
+                                    <path id="odd"
+                                        d="M130.937 54.7083C130.77 58.5569 128.715 58.2718 126.185 58.1649C123.655 58.058 121.588 58.0818 121.838 54.2332C122.016 51.525 124.522 47.712 125.948 45.6452C126.055 45.495 126.198 45.374 126.363 45.2932C126.529 45.2125 126.713 45.1745 126.897 45.1828C127.081 45.191 127.26 45.2453 127.418 45.3406C127.576 45.4359 127.708 45.5692 127.801 45.7284C128.989 47.8902 131.055 51.9882 130.937 54.7083Z"
+                                        fill="#222222" />
+                                    <path id="odd"
+                                        d="M126.577 52.915C126.587 53.4134 126.403 53.8963 126.064 54.2619C125.725 54.6275 125.257 54.8473 124.759 54.8749C124.517 54.8386 124.283 54.7548 124.073 54.6282C123.863 54.5016 123.68 54.3348 123.534 54.1373C123.388 53.9397 123.283 53.7154 123.224 53.4771C123.165 53.2388 123.154 52.9913 123.191 52.7487C123.184 52.2554 123.368 51.7785 123.705 51.4177C124.041 51.0569 124.504 50.84 124.997 50.8125C125.485 50.8831 125.924 51.1439 126.22 51.5379C126.516 51.9318 126.645 52.4269 126.577 52.915V52.915Z"
+                                        fill="white" />
+                                </g>
+                                <g id="Group 41">
+                                    <path id="even"
+                                        d="M164.967 64.7935C166.095 64.7935 167.224 64.7935 168.364 64.7935L170.205 70.2575C167.925 70.3644 165.644 70.3644 163.363 70.3881L164.967 64.7935Z"
+                                        fill="#263238" />
+                                    <path id="even"
+                                        d="M162.248 73.6306C162.248 69.782 164.303 69.9364 166.904 69.9127C169.506 69.8889 171.584 69.5682 171.656 73.4761C171.751 76.1963 169.482 80.2824 168.092 82.4443C167.984 82.611 167.837 82.748 167.662 82.8429C167.488 82.9379 167.293 82.9876 167.094 82.9876C166.896 82.9876 166.701 82.9379 166.526 82.8429C166.352 82.748 166.204 82.611 166.097 82.4443C164.731 80.3299 162.284 76.3507 162.248 73.6306Z"
+                                        fill="#222222" />
+                                    <path id="even"
+                                        d="M166.903 75.2341C166.85 74.7238 167.001 74.2133 167.324 73.8147C167.647 73.416 168.115 73.1618 168.625 73.1079C168.873 73.1186 169.117 73.1781 169.342 73.283C169.567 73.3879 169.769 73.5362 169.937 73.7194C170.105 73.9025 170.235 74.1169 170.319 74.3504C170.404 74.5838 170.442 74.8316 170.431 75.0797C170.474 75.5823 170.32 76.0821 170 76.4725C169.681 76.863 169.222 77.1133 168.72 77.1703C168.225 77.1487 167.757 76.934 167.417 76.5723C167.078 76.2105 166.893 75.7302 166.903 75.2341V75.2341Z"
+                                        fill="white" />
+                                </g>
+                                <g id="Group 42">
+                                    <path id="odd"
+                                        d="M216.969 60.7429L213.596 61.0518L211.398 55.7065L218.086 55.0889L216.969 60.7429Z"
+                                        fill="#263238" />
+                                    <path id="odd"
+                                        d="M218.882 51.7269C219.286 55.5517 217.208 55.5755 214.666 55.8012C212.124 56.0269 210.081 56.3951 209.736 52.5703C209.487 49.862 211.387 45.669 212.504 43.4478C212.602 43.2941 212.733 43.165 212.889 43.0704C213.045 42.9757 213.22 42.9182 213.401 42.9021C213.583 42.886 213.765 42.9119 213.935 42.9777C214.105 43.0434 214.257 43.1474 214.381 43.2815C215.937 45.2414 218.586 49.0068 218.882 51.7269Z"
+                                        fill="#222222" />
+                                    <path id="odd"
+                                        d="M214.249 50.5394C214.294 50.7813 214.29 51.0295 214.238 51.2699C214.187 51.5103 214.088 51.7381 213.947 51.9401C213.807 52.1422 213.628 52.3145 213.421 52.4471C213.214 52.5798 212.983 52.6702 212.741 52.7131C212.334 52.8234 211.903 52.8059 211.507 52.663C211.11 52.5201 210.767 52.2588 210.524 51.9144C210.281 51.5699 210.15 51.1592 210.148 50.7377C210.147 50.3162 210.275 49.9044 210.515 49.5581C210.755 49.2119 211.096 48.9479 211.492 48.8019C211.887 48.656 212.318 48.6352 212.726 48.7423C213.133 48.8494 213.498 49.0793 213.771 49.4007C214.043 49.7222 214.21 50.1197 214.249 50.5394V50.5394Z"
+                                        fill="white" />
+                                </g>
+                                <g id="Group 43">
+                                    <path id="even"
+                                        d="M254.066 56.8586L257.428 56.3716L259.958 61.5861L253.211 62.572L254.066 56.8586Z"
+                                        fill="#263238" />
+                                    <path id="even"
+                                        d="M252.546 65.9811C251.988 62.1801 254.078 62.0376 256.644 61.6693C259.21 61.3011 261.253 60.8141 261.859 64.6033C262.286 67.2996 260.588 71.6115 259.483 73.8921C259.399 74.0672 259.273 74.219 259.116 74.3341C258.959 74.4491 258.777 74.524 258.585 74.5522C258.392 74.5803 258.196 74.5608 258.013 74.4955C257.83 74.4301 257.666 74.3208 257.535 74.1772C255.86 72.3004 252.938 68.6775 252.546 65.9811Z"
+                                        fill="#222222" />
+                                    <path id="even"
+                                        d="M257.344 66.9548C257.234 66.4666 257.322 65.9546 257.59 65.5314C257.857 65.1083 258.281 64.8085 258.769 64.698C259.272 64.6651 259.768 64.8308 260.15 65.1595C260.532 65.4882 260.77 65.9537 260.812 66.4559C260.869 66.6978 260.876 66.9484 260.835 67.1932C260.793 67.4379 260.704 67.6721 260.571 67.882C260.438 68.0919 260.265 68.2734 260.062 68.416C259.859 68.5586 259.63 68.6595 259.387 68.7128C258.883 68.7489 258.386 68.5843 258.003 68.2549C257.62 67.9256 257.383 67.4582 257.344 66.9548V66.9548Z"
+                                        fill="white" />
+                                </g>
+                                <g id="Group 44">
+                                    <path id="odd"
+                                        d="M305.225 46.6669L301.923 47.3915L299.144 42.3076C301.341 41.9037 303.527 41.3811 305.724 40.894L305.225 46.6669Z"
+                                        fill="#263238" />
+                                    <path id="odd"
+                                        d="M306.139 37.4729C306.947 41.2264 304.892 41.5115 302.397 42.0698C299.903 42.6281 297.896 43.1507 297.124 39.3853C296.577 36.7245 298.014 32.3771 298.893 30.0371C298.971 29.8721 299.085 29.7271 299.227 29.6134C299.37 29.4996 299.536 29.4201 299.714 29.3811C299.892 29.3421 300.077 29.3445 300.254 29.3882C300.431 29.4319 300.595 29.5158 300.735 29.6332C302.481 31.3674 305.557 34.7765 306.139 37.4729Z"
+                                        fill="#222222" />
+                                    <path id="odd"
+                                        d="M301.46 36.8079C301.537 37.0465 301.565 37.298 301.543 37.5476C301.521 37.7973 301.449 38.0399 301.332 38.2614C301.215 38.4828 301.054 38.6785 300.86 38.8368C300.666 38.9952 300.442 39.1131 300.201 39.1836C299.947 39.2183 299.688 39.2012 299.44 39.1332C299.193 39.0651 298.962 38.9477 298.761 38.7878C298.56 38.628 298.393 38.429 298.271 38.2031C298.149 37.9771 298.075 37.7288 298.051 37.4731C297.96 37.238 297.921 36.9858 297.937 36.734C297.953 36.4823 298.024 36.2371 298.145 36.0156C298.265 35.7941 298.433 35.6016 298.636 35.4514C298.838 35.3013 299.071 35.1972 299.318 35.1464C299.566 35.0956 299.821 35.0993 300.066 35.1572C300.312 35.2152 300.542 35.326 300.74 35.4819C300.938 35.6378 301.1 35.8351 301.214 36.06C301.328 36.285 301.392 36.5321 301.401 36.7842L301.46 36.8079Z"
+                                        fill="white" />
+                                </g>
+                                <g id="Group 45">
+                                    <path id="even"
+                                        d="M341.729 38.9939L345.019 38.1743L348.036 43.1276L341.432 44.7549L341.729 38.9939Z"
+                                        fill="#263238" />
+                                    <path id="even"
+                                        d="M341.098 48.2623C340.172 44.5207 342.286 44.1881 344.757 43.511C347.228 42.834 349.247 42.2282 350.221 45.8867C350.898 48.5237 349.615 52.9543 348.784 55.3893C348.716 55.5701 348.606 55.7318 348.462 55.8603C348.318 55.9889 348.146 56.0806 347.958 56.1274C347.771 56.1742 347.576 56.1747 347.388 56.1288C347.201 56.083 347.027 55.9923 346.883 55.8644C345.018 54.2134 341.763 50.8993 341.098 48.2623Z"
+                                        fill="#222222" />
+                                    <path id="even"
+                                        d="M345.957 48.7222C345.802 48.2496 345.84 47.7351 346.063 47.2903C346.285 46.8456 346.674 46.5065 347.145 46.3466C347.64 46.2636 348.149 46.379 348.56 46.668C348.971 46.957 349.252 47.3962 349.342 47.8908C349.42 48.1247 349.452 48.3718 349.434 48.6179C349.417 48.864 349.351 49.1042 349.241 49.3249C349.131 49.5455 348.978 49.7422 348.791 49.9038C348.605 50.0654 348.388 50.1886 348.154 50.2664C347.659 50.3463 347.152 50.2296 346.742 49.9411C346.331 49.6527 346.05 49.2153 345.957 48.7222V48.7222Z"
+                                        fill="white" />
+                                </g>
+                                <g id="Group 46">
+                                    <path id="odd"
+                                        d="M391.736 24.2292L388.493 25.2032L385.286 20.3806L391.974 18.397C391.754 20.3328 391.674 22.2819 391.736 24.2292Z"
+                                        fill="#263238" />
+                                    <path id="odd"
+                                        d="M392.841 14.7144C393.056 15.3786 393.066 16.0921 392.869 16.7618C392.672 17.4315 392.277 18.0261 391.737 18.4679C391.29 18.8038 390.798 19.0757 390.276 19.2757C389.753 19.4776 389.171 19.6439 388.553 19.8221C386.106 20.5585 384.158 21.3068 383.077 17.6246C382.305 15.0114 383.374 10.4976 384.051 8.12195C384.115 7.94931 384.218 7.79383 384.352 7.66776C384.486 7.5417 384.648 7.4485 384.824 7.39551C385 7.34253 385.186 7.33122 385.368 7.36246C385.549 7.39371 385.72 7.46665 385.869 7.57555C386.344 7.99129 386.914 8.49018 387.508 9.06034L388.411 9.96309C388.767 10.2482 389.302 10.5095 389.694 10.8064C391.198 11.6653 392.323 13.0612 392.841 14.7144V14.7144Z"
+                                        fill="#222222" />
+                                    <path id="odd"
+                                        d="M387.126 14.7028C387.167 15.0337 387.113 15.3695 386.969 15.6704C386.826 15.9714 386.599 16.2249 386.316 16.401C386.032 16.5771 385.705 16.6684 385.371 16.6641C385.038 16.6599 384.713 16.5602 384.434 16.377C384.155 16.1937 383.935 15.9345 383.799 15.63C383.663 15.3255 383.617 14.9885 383.667 14.6587C383.716 14.3289 383.859 14.0203 384.079 13.7692C384.298 13.5181 384.585 13.3351 384.905 13.2418C385.393 13.1465 385.899 13.2461 386.314 13.5192C386.729 13.7923 387.021 14.2172 387.126 14.7028V14.7028Z"
+                                        fill="white" />
+                                </g>
+                                <g id="Group 47">
+                                    <path id="even"
+                                        d="M426.111 34.563L429.259 35.8102L428.879 41.5712C426.729 40.7753 424.603 39.9082 422.465 39.0649L426.111 34.563Z"
+                                        fill="#263238" />
+                                    <path id="even"
+                                        d="M420.148 41.6665C421.597 38.103 423.486 39.0652 425.921 40.0154C428.356 40.9657 430.387 41.5358 429.033 45.1468C428.082 47.7007 424.4 50.5871 422.298 52.0363C422.129 52.1365 421.94 52.1968 421.744 52.2124C421.548 52.228 421.352 52.1985 421.169 52.1263C420.987 52.054 420.824 51.9408 420.692 51.7955C420.56 51.6501 420.463 51.4765 420.409 51.2879C419.839 48.8054 419.055 44.1847 420.148 41.6665Z"
+                                        fill="#222222" />
+                                    <path id="even"
+                                        d="M423.877 44.9328C424.044 44.6315 424.294 44.3846 424.597 44.2213C424.9 44.0581 425.243 43.9855 425.586 44.0122C425.93 44.039 426.258 44.1639 426.532 44.372C426.806 44.5802 427.014 44.8628 427.132 45.1862C427.25 45.5096 427.273 45.8601 427.197 46.1958C427.121 46.5316 426.95 46.8384 426.704 47.0797C426.459 47.3209 426.149 47.4865 425.812 47.5565C425.475 47.6266 425.125 47.5982 424.804 47.4747C424.576 47.3687 424.371 47.2189 424.201 47.0338C424.032 46.8486 423.9 46.6318 423.814 46.3958C423.728 46.1597 423.689 45.909 423.7 45.658C423.711 45.4069 423.771 45.1605 423.877 44.9328V44.9328Z"
+                                        fill="white" />
+                                </g>
+                                <g id="Group 48">
+                                    <path id="odd"
+                                        d="M476.071 49.3516C474.967 49.0902 473.862 48.8646 472.769 48.5914L472.508 42.8066C474.646 43.353 476.808 43.8282 478.97 44.3033L476.071 49.3516Z"
+                                        fill="#263238" />
+                                    <path id="odd"
+                                        d="M480.727 41.3456C479.92 45.0991 477.96 44.4815 475.489 43.9351C473.018 43.3887 471.011 43.0085 471.925 39.2788C472.591 36.6537 475.703 33.3396 477.425 31.546C477.554 31.42 477.713 31.3284 477.887 31.2796C478.061 31.2307 478.244 31.2262 478.42 31.2663C478.596 31.3065 478.759 31.3901 478.894 31.5095C479.03 31.6289 479.133 31.7803 479.195 31.9499C479.991 34.2899 481.297 38.6611 480.727 41.3456Z"
+                                        fill="#222222" />
+                                    <path id="odd"
+                                        d="M476.808 38.7797C476.774 39.0219 476.693 39.255 476.569 39.4657C476.445 39.6764 476.281 39.8604 476.085 40.0073C475.89 40.1541 475.667 40.2608 475.43 40.3213C475.194 40.3818 474.947 40.3948 474.705 40.3596C474.27 40.1598 473.917 39.8149 473.708 39.3839C473.498 38.9529 473.445 38.4625 473.558 37.9967C473.67 37.5309 473.94 37.1185 474.323 36.8302C474.706 36.5418 475.177 36.3954 475.655 36.416C476.115 36.5855 476.492 36.926 476.706 37.3664C476.921 37.8069 476.957 38.3132 476.808 38.7797V38.7797Z"
+                                        fill="white" />
+                                </g>
+                                <g id="Group 49">
+                                    <path id="even"
+                                        d="M512.775 55.9321C513.963 56.0509 515.032 56.0984 516.161 56.1697L517.527 61.8C515.21 61.6693 512.906 61.5268 510.602 61.2892L512.775 55.9321Z"
+                                        fill="#263238" />
+                                    <path id="even"
+                                        d="M509.116 64.449C509.484 60.6124 511.587 61.0043 514.212 61.2063C516.837 61.4082 518.963 61.3251 518.785 65.1617C518.654 67.8819 515.97 71.7304 514.343 73.7379C514.207 73.8866 514.04 74.0031 513.854 74.0786C513.668 74.1542 513.467 74.1869 513.266 74.1743C513.065 74.1618 512.87 74.1043 512.694 74.0061C512.519 73.908 512.368 73.7716 512.252 73.6072C510.945 71.3622 508.855 67.1692 509.116 64.449Z"
+                                        fill="#222222" />
+                                    <path id="even"
+                                        d="M513.702 66.5038C513.718 65.9953 513.929 65.5124 514.292 65.156C514.655 64.7996 515.142 64.5973 515.65 64.5914C516.063 64.573 516.472 64.6803 516.823 64.8992C517.174 65.1181 517.45 65.4383 517.615 65.8174C517.78 66.1965 517.826 66.6167 517.747 67.0226C517.668 67.4284 517.468 67.8007 517.173 68.0904C516.878 68.38 516.502 68.5733 516.094 68.6447C515.687 68.7162 515.268 68.6624 514.892 68.4905C514.516 68.3186 514.201 68.0367 513.988 67.6819C513.776 67.3272 513.676 66.9164 513.702 66.5038V66.5038Z"
+                                        fill="white" />
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section charity ends  -->
+
+    <!-- section partners ends  -->
+    <section class="partner">
+        <div class="uk-container uk-container-expand">
+            <div class="partner-bg">
+                <div class="swiper mySwiper-partner">
+                    <div class="swiper-wrapper uk-flex-middle uk-padding-remove">
+                        <div class="swiper-slide">
+                            <img src="./assets/img/partner1.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/img/partner2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/img/partner3.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/img/partner4.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/img/partner5.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/img/partner6.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/img/partner7.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/img/partner8.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/img/partner9.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/img/partner10.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/img/partner11.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/img/partner12.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./assets/img/partner13.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section partners ends  -->
+
+    <!-- footer section starts  -->
+    <footer>
+        <div class="uk-container uk-container-expand ">
+            <div class="footer-content">
+                <div class="uk-grid footer-wrapper">
+                    <div class="uk-width-expand@m uk-width-1-1@s">
+                        <div class="footer-info">
+                            <div class="uk-flex foot-abt">
+                                <div class="uk-margin-right">
+                                    <a href="index.html">
+                                        <img src="./assets/img/logo.png" alt="">
+                                    </a>
+                                </div>
+
+                                <div>
+                                    <h4>Daya Foundation For Education Health & Culture</h4>
+                                    <p>We are committed to create an improved learning environment in the education
+                                        sector, promote health services for our communities and preserve the rich
+                                        cultural heritage of Nepal.</p>
+
+                                    <button class="uk-button uk-button-dark">
+                                        <a href="about-us.html">Read More</a>
+                                    </button>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="uk-width-1-3@m uk-width-1-2@s uk-flex uk-flex-center@m">
+                        <div class="quick-links">
+
+                            <h4>Quick Links</h4>
+                            <ul class="uk-list">
+                                <li><a href="about-us.html"><i
+                                            class="fas fa-angle-double-right uk-margin-small-right"></i>About Us</a>
+                                </li>
+                                <li><a href="photo.html"><i
+                                            class="fas fa-angle-double-right uk-margin-small-right"></i>Gallery</a></li>
+                                <li><a href="blog.html"><i
+                                            class="fas fa-angle-double-right uk-margin-small-right"></i>Blog</a></li>
+                                <li><a href="contact-us.html"><i
+                                            class="fas fa-angle-double-right uk-margin-small-right"></i>Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="uk-width-1-3@m uk-width-1-2@s">
+                        <div class="contact-info">
+                            <h4>Contact Us</h4>
+
+                            <ul class="uk-list">
+                                <li>
+                                    <i class="fas fa-phone-alt uk-margin-small-right"></i>
+                                    <a href="tel:4272253">977-1-4270737 / 4272253</a>
+                                </li>
+                                <li><i class="fas fa-envelope uk-margin-small-right"></i><a
+                                        href="mailto:info@dayafoundation.org.np">info@dayafoundation.org.np</a></li>
+                                <li><i class="fas fa-map-marker-alt uk-margin-small-right"></i>P.O.Box: 9007, Museum
+                                    Road, Chauni - 13, Kathmandu, Nepal</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-container uk-container-expand ">
+            <div class="foot uk-flex uk-flex-between uk-flex-middle uk-flex-wrap">
+                <div class="uk-margin-right">
+                    <span class="copyright"> &copy; Copyright @ 2022 designed by <a href="https://easysoftware.com.np/"
+                            target="_blank">EasySoftware pvt ltd</a>
+                    </span>
+                </div>
+
+                <div class="social-media">
+                    <div>
+                        <a href="#" uk-icon="icon: facebook" class="uk-margin-small-right f uk-padding-remove"></a>
+                        <a href="#" uk-icon="icon: twitter" class="uk-margin-small-right t uk-padding-remove"></a>
+                        <a href="#" uk-icon="icon: instagram" class="uk-margin-small-right i uk-padding-remove"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section ends  -->
+
+    <!-- go to top starts -->
+    <a href="!#" class="go-to-top" id="top" uk-scroll uk-tooltip="Go to top">
+        <i class="fas fa-arrow-alt-circle-up fa-2x"></i>
+    </a>
+    <!-- go to top ends -->
+
+    <!-- UIkit JS starts-->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.13/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.13/dist/js/uikit-icons.min.js"></script>
+    <!-- UIkit JS ends-->
+
+    <!-- jQuery js starts -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/jquery-1.11.0.min.js"></script>
+    <script src="./assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <!-- jQuery js ends -->
+
+    <!-- swiper js starts -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- swiper js ends -->
+
+    <script src="./assets/js/main.js"></script>
+
+
+</body>
+
+</html>

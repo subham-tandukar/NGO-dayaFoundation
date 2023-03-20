@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO</title>
+    <!-- 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /> -->
+
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome.min.css">
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+    <!-- UIkit css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.13/dist/css/uikit.min.css">
+
+    <!-- user css -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="pre-loader">
+        <div class="loading">
+            <div class="loader-icon">
+
+            </div>
+            <div class="img">
+                <img src="./assets/img/logo.png" alt="loading">
+            </div>
+            <span>Loading... Please wait</span>
+        </div>
+    </div>
+    <header>
+        <div class="head uk-visible@l ">
+            <div class="uk-container uk-container-expand uk-flex uk-flex-wrap uk-flex-middle uk-flex-between">
+
+                <div class=" head-info">
+                    <p><i class="fas fa-map-marker-alt uk-margin-small-right"></i>Kathmandu, Nepal </p>
+                    <p><i class="fas fa-phone-alt uk-margin-small-right"></i>977-1-4270737 / 4272253</p>
+                </div>
+
+                <div class=" head-icon">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="uk-margin-small-left"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="uk-margin-small-left"><i class="fab fa-instagram"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="uk-container uk-container-expand">
+            <div class="site-nav" uk-sticky="top:300; animation: uk-animation-slide-top;">
+                <div class="uk-container uk-container-expand  uk-flex uk-flex-between uk-flex-middle uk-flex-wrap">
+                    <div class="logo">
+                        <div>
+                            <a href="index.html"><img src="./assets/img/logo.png" alt="logo"></a>
+                        </div>
+                        <div>
+                            <p class="p1">Daya Foundation <br>For Education Health & Culture</p>
+                        </div>
+                    </div>
+
+                    <nav class="uk-visible@l" uk-navbar>
+                        <ul class="navbar uk-flex-middle">
+                            <li><a href="index.html" class="nav-item">Home</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-item">About Us<span uk-icon="icon: chevron-down"
+                                        class="dropdown-icon"></span></a>
+                                <div class="uk-navbar-dropdown"
+                                    uk-dropdown="animation: reveal-top; animate-out: true; duration: 700">
+                                    <ul class="uk-nav uk-dropdown-nav">
+                                        <li><a href="about-us.html" class="dropdown-list">Who Are We?</a></li>
+                                        <li><a href="about-us.html" class="dropdown-list">Founder - Mr. Dayaram Bhakta
+                                                Mathema</a></li>
+                                        <li><a href="about-us.html" class="dropdown-list">Mission</a></li>
+                                        <li><a href="about-us.html" class="dropdown-list">Objectives</a></li>
+                                        <li><a href="about-us.html" class="dropdown-list">Board of Directors</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li><a href="education.html" class="nav-item">Education</a></li>
+                            <li><a href="health.html" class="nav-item">Health</a></li>
+                            <li><a href="culture.html" class="nav-item">Culture</a></li>
+                            <li><a href="env.html" class="nav-item">Environment & Disaster Relief</a></li>
+
+
+
+                            <li><a href="blog.html" class="nav-item">Blog</a></li>
+
+                            <li class="dropdown">
+                                <a href="#" class="nav-item active-nav">Gallery<span uk-icon="icon: chevron-down"
+                                        class="dropdown-icon"></span></a>
+                                <div class="uk-navbar-dropdown"
+                                    uk-dropdown="animation: reveal-top; animate-out: true; duration: 700">
+                                    <ul class="uk-nav uk-dropdown-nav">
+                                        <li><a href="photo.html" class="dropdown-list">Photo</a></li>
+                                        <li><a href="video.html" class="dropdown-list">Video</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li><a href="contact-us.html" class="nav-item">Contact Us</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="uk-hidden@l uk-visible hamburger-menu">
+                        <a href="#offcanvas-slide" uk-toggle><span uk-icon="icon: menu"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="offcanvas-slide" uk-offcanvas>
+            <div class="overlay"></div>
+            <div class="uk-offcanvas-bar">
+                <button class="uk-offcanvas-close" type="button" title="close" uk-close></button>
+
+                <div class="uk-flex uk-flex-middle uk-flex-center uk-flex-wrap uk-margin-top">
+                    <div>
+                        <a href="index.html"><img src="./assets/img/logo.png" alt="logo" style="width:60px"></a>
+                    </div>
+                    <div>
+                        <p class="p1 uk-margin-remove-bottom uk-margin-top" style="color:#fff; font-weight:bold">Daya
+                            Foundation For Education Health & Culture</p>
+                    </div>
+                </div>
+
+                <hr class="uk-margin-remove-bottom">
+
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+
+                    <ul uk-accordion class="uk-margin-remove">
+                        <li class="uk-margin-remove">
+                            <a href="#" class="uk-accordion-title">About Us<span uk-icon="icon: chevron-right"
+                                    class="dropdown-icon"></span></a>
+                            <div class="uk-accordion-content uk-margin-remove-top">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="about-us.html" class="dropdown-list">Who Are We?</a></li>
+                                    <li><a href="about-us.html" class="dropdown-list">Founder - Mr. Dayaram Bhakta
+                                            Mathema</a></li>
+                                    <li><a href="about-us.html" class="dropdown-list">Mission</a></li>
+                                    <li><a href="about-us.html" class="dropdown-list">Objectives</a></li>
+                                    <li><a href="about-us.html" class="dropdown-list">Board of Directors</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="health.html">Health</a></li>
+                    <li><a href="culture.html">Culture</a></li>
+                    <li><a href="env.html">Environment & Disaster Relief</a></li>
+
+
+                    <li><a href="blog.html">Blog</a></li>
+
+                    <ul uk-accordion class="uk-margin-remove">
+                        <li class="uk-margin-remove">
+                            <a href="#" class="uk-accordion-title">Gallery<span uk-icon="icon: chevron-right"
+                                    class="dropdown-icon"></span></a>
+                            <div class="uk-accordion-content uk-margin-remove-top">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="photo.html" class="dropdown-list">Photo</a></li>
+                                    <li><a href="video.html" class="dropdown-list">Video</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+
+                    <li><a href="contact-us.html">Contact Us</a></li>
+
+                </ul>
+                <p style="color:#fff"><i class="fas fa-phone-alt uk-margin-small-right"></i>977-1-4270737 / 4272253</p>
+                <p style="color:#fff"><i class="fas fa-map-marker-alt uk-margin-small-right"></i>Kathmandu, Nepal</p>
+
+                <hr>
+                <div>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="uk-margin-small-left"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="uk-margin-small-left"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="header-bg"></div> -->
+    </header>
+
+    <section class="breadcrumb">
+        <div class="uk-container uk-container-expand">
+
+            <div class="txt uk-position-relative">
+                <div class="uk-text-center">
+                    <h5 class="title">Photo <img src="./assets/img/tick.png" alt=""> </h5>
+                </div>
+                <div class="uk-flex uk-flex-middle link">
+                    <a href="index.html"><i class="fas fa-home"></i>Home</a>
+                    <span>|</span>
+                    <p>Gallery</p>
+                </div>
+            </div>
+
+            <div class="uk-grid uk-child-width-1-4 ">
+                <div class="pole bottom"></div>
+                <div class="pole top"></div>
+                <div class="pole bottom"></div>
+                <div class="pole top"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- photo starts -->
+    <section class="photo-page">
+        <div class="uk-container uk-container-expand">
+            <div uk-lightbox="animation: scale"
+                class=" swiper-wrapper uk-grid uk-child-width-1-3@m uk-child-width-1-2@s"
+                uk-scrollspy="cls: uk-animation-slide-bottom; target: .photo-wrapper; delay: 300; repeat: false">
+                <div class="photo-wrapper">
+                    <div class="swiper-slide wrapper">
+                        <div class="wrap">
+                            <img src="./assets/img/work1.jpg" alt="">
+                            <h5>Photo</h5>
+                            <a href="./assets/img/work1.jpg" data-caption="Caption1"><i
+                                    class="fas fa-image"></i></i>View
+                                Photo</a>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+
+                <div class="photo-wrapper">
+                    <div class="swiper-slide wrapper">
+                        <div class="wrap">
+                            <img src="./assets/img/work2.jpg" alt="">
+                            <h5>Photo</h5>
+                            <a href="./assets/img/work2.jpg" data-caption="Caption2"><i
+                                    class="fas fa-image"></i></i>View
+                                Photo</a>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+
+                <div class="photo-wrapper">
+                    <div class="swiper-slide wrapper">
+                        <div class="wrap">
+                            <img src="./assets/img/work3.jpg" alt="">
+                            <h5>Photo</h5>
+                            <a href="./assets/img/work3.jpg" data-caption="Caption3"><i
+                                    class="fas fa-image"></i></i>View
+                                Photo</a>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+
+                <div class="photo-wrapper">
+                    <div class="swiper-slide wrapper">
+                        <div class="wrap">
+                            <img src="./assets/img/work4.jpg" alt="">
+                            <h5>Photo</h5>
+                            <a href="./assets/img/work4.jpg" data-caption="Caption4"><i
+                                    class="fas fa-image"></i></i>View
+                                Photo</a>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+
+                <div class="photo-wrapper">
+                    <div class="swiper-slide wrapper">
+                        <div class="wrap">
+                            <img src="./assets/img/work1.jpg" alt="">
+                            <h5>Photo</h5>
+                            <a href="./assets/img/work1.jpg" data-caption="Caption5"><i
+                                    class="fas fa-image"></i></i>View
+                                Photo</a>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+
+                <div class="photo-wrapper">
+                    <div class="swiper-slide wrapper">
+                        <div class="wrap">
+                            <img src="./assets/img/work2.jpg" alt="">
+                            <h5>Photo</h5>
+                            <a href="./assets/img/work2.jpg" data-caption="Caption6"><i
+                                    class="fas fa-image"></i></i>View
+                                Photo</a>
+                        </div>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- photo ends -->
+
+    <!-- footer section starts  -->
+    <footer>
+        <div class="uk-container uk-container-expand ">
+            <div class="footer-content">
+                <div class="uk-grid footer-wrapper">
+                    <div class="uk-width-expand@m uk-width-1-1@s">
+                        <div class="footer-info">
+                            <div class="uk-flex foot-abt">
+                                <div class="uk-margin-right">
+                                    <a href="index.html">
+                                        <img src="./assets/img/logo.png" alt="">
+                                    </a>
+                                </div>
+
+                                <div>
+                                    <h4>Daya Foundation For Education Health & Culture</h4>
+                                    <p>We are committed to create an improved learning environment in the education
+                                        sector,
+                                        promote health services for our communities and preserve the rich cultural
+                                        heritage
+                                        of Nepal.</p>
+
+                                    <button class="uk-button uk-button-dark">
+                                        <a href="about-us.html">Read More</a>
+                                    </button>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="uk-width-1-3@m uk-width-1-2@s uk-flex uk-flex-center@m">
+                        <div class="quick-links">
+
+                            <h4>Quick Links</h4>
+                            <ul class="uk-list">
+                                <li><a href="about-us.html"><i
+                                            class="fas fa-angle-double-right uk-margin-small-right"></i>About Us</a>
+                                </li>
+                                <li><a href="photo.html"><i
+                                            class="fas fa-angle-double-right uk-margin-small-right"></i>Gallery</a></li>
+                                <li><a href="blog.html"><i
+                                            class="fas fa-angle-double-right uk-margin-small-right"></i>Blog</a></li>
+                                <li><a href="contact-us.html"><i
+                                            class="fas fa-angle-double-right uk-margin-small-right"></i>Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="uk-width-1-3@m uk-width-1-2@s">
+                        <div class="contact-info">
+                            <h4>Contact Us</h4>
+
+                            <ul class="uk-list">
+                                <li>
+                                    <i class="fas fa-phone-alt uk-margin-small-right"></i>
+                                    <a href="tel:4272253">977-1-4270737 / 4272253</a>
+                                </li>
+                                <li><i class="fas fa-envelope uk-margin-small-right"></i><a
+                                        href="mailto:info@dayafoundation.org.np">info@dayafoundation.org.np</a></li>
+                                <li><i class="fas fa-map-marker-alt uk-margin-small-right"></i>P.O.Box: 9007, Museum
+                                    Road,
+                                    Chauni - 13, Kathmandu, Nepal</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-container uk-container-expand ">
+            <div class="foot uk-flex uk-flex-between uk-flex-middle uk-flex-wrap">
+                <div class="uk-margin-right">
+                    <span class="copyright"> &copy; Copyright @ 2022 designed by <a href="https://easysoftware.com.np/"
+                            target="_blank">EasySoftware pvt ltd</a>
+                    </span>
+                </div>
+
+                <div class="social-media">
+                    <div>
+                        <a href="#" uk-icon="icon: facebook" class="uk-margin-small-right f uk-padding-remove"></a>
+                        <a href="#" uk-icon="icon: twitter" class="uk-margin-small-right t uk-padding-remove"></a>
+                        <a href="#" uk-icon="icon: instagram" class="uk-margin-small-right i uk-padding-remove"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section ends  -->
+
+    <!-- go to top starts -->
+    <a href="!#" class="go-to-top" id="top" uk-scroll uk-tooltip="Go to top">
+        <i class="fas fa-arrow-alt-circle-up fa-2x"></i>
+    </a>
+    <!-- go to top ends -->
+
+    <!-- UIkit JS starts-->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.13/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.13/dist/js/uikit-icons.min.js"></script>
+    <!-- UIkit JS ends-->
+
+    <!-- jQuery js starts -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/jquery-1.11.0.min.js"></script>
+    <script src="./assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <!-- jQuery js ends -->
+
+    <!-- swiper js starts -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!-- swiper js ends -->
+
+    <script src="./assets/js/main.js"></script>
+
+
+</body>
+
+</html>

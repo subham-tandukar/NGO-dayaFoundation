@@ -1,0 +1,373 @@
+@media (max-width: 1199.9px) {
+  .site-nav {
+    margin-top: 0;
+  }
+
+  .hero-banner {
+    .slider-txt {
+      h3 {
+        font-size: 40px;
+      }
+      .circle {
+        width: 70px;
+        height: 70px;
+        top: -12px;
+      }
+      p {
+        font-size: 22px;
+      }
+    }
+  }
+  .about {
+    .about-img {
+      .img {
+        height: 300px;
+      }
+    }
+  }
+  .testimonials {
+    .slider-testimonial-img {
+      height: 52%;
+    }
+    .wrap {
+      width: 44%;
+
+      .slider-txt {
+        .quote {
+          top: 25px;
+
+          img {
+            height: 30px;
+          }
+        }
+      }
+    }
+  }
+  .blog-page .sidebar .latest-post img {
+    width: 75%;
+    height: 100px;
+  }
+  .blog-page .sidebar .latest-post .latest-post-content {
+    padding-left: 2rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 959.9px) {
+  footer {
+    .footer-content {
+      .footer-wrapper {
+        .footer-info {
+          h4 {
+            margin-left: 0;
+          }
+        }
+        p {
+          margin-bottom: 0rem;
+        }
+        .quick-links,
+        .contact-info {
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+
+  .site-nav .logo img {
+    height: 90px;
+  }
+
+  .hero-banner {
+    .slider-txt {
+      h3 {
+        font-size: 25px;
+        border-left: 5px solid #fff;
+        padding-left: 0.5rem !important;
+      }
+      .circle {
+        width: 50px;
+        height: 50px;
+        top: -10px;
+      }
+      p {
+        font-size: 16px;
+        margin-top: 0;
+      }
+      .uk-button {
+        margin-top: 0 !important;
+        padding: 0 20px;
+
+        a {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .stat {
+    .uk-grid > div:first-child,
+    .uk-grid > div:nth-child(2) {
+      margin-bottom: 3rem;
+    }
+    .wrapper {
+      i {
+        font-size: 25px;
+      }
+      h5 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 14px;
+      }
+      .bottom::after {
+        top: 44px;
+      }
+      .top::after {
+        bottom: 44px;
+      }
+      // .top-hide::after,
+      .bottom-hide::after {
+        bottom: 44px;
+        top: -60px;
+        border-radius: 0 0 500px 500px;
+      }
+      .top-hide::after {
+        top: 44px;
+        bottom: -60px;
+        border-radius: 500px 500px 0 0;
+      }
+    }
+  }
+  .about {
+    .about-img {
+      .plane {
+        display: none;
+      }
+    }
+    .about-txt {
+      margin-top: 2rem;
+    }
+  }
+  .charity {
+    h3 {
+      font-size: 22px;
+    }
+    .svg-img {
+      text-align: center;
+      margin-top: 2rem;
+
+      svg {
+        width: 200px;
+      }
+    }
+  }
+  .team {
+    padding-bottom: 0;
+  }
+  .testimonials {
+    .wrapper {
+      margin-top: 0;
+    }
+    .wrap {
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      width: 75%;
+    }
+    .slider-testimonial-img {
+      display: none;
+    }
+    .uk-slidenav-previous {
+      left: 170px;
+      transform: translate(-25px, 280%);
+      top: 50%;
+    }
+    .uk-slidenav-next {
+      right: calc(100% - 470px);
+      transform: translate(-600%, 280%);
+      top: 50%;
+    }
+  }
+  .blog-page .sidebar {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  .blog-page .sidebar .latest-post img {
+    width: 100%;
+  }
+  .about-info .how-we-work {
+    margin-top: 2rem;
+  }
+  .about-info .who-are-we {
+    padding-top: 1rem;
+  }
+  .founder .founder-txt {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .blog-page .sidebar {
+    width: 75%;
+  }
+  .blog-page .content img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 639.9px) {
+  p,
+  a {
+    font-size: 14px;
+  }
+  .uk-button {
+    a {
+      font-size: 12px;
+      padding: 0px 20px;
+    }
+  }
+  .stat {
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    .uk-grid > div:first-child,
+    .uk-grid > div:nth-child(2) {
+      margin-bottom: 0;
+    }
+    .uk-grid > div {
+      margin-bottom: 2rem !important;
+    }
+    .wrapper {
+      .top::after,
+      .bottom::after {
+        display: none;
+      }
+    }
+  }
+  .charity {
+    .charity-btn {
+      .arrow {
+        right: -83%;
+      }
+    }
+  }
+  .hero-banner {
+    .slider-hero-img {
+      width: calc(100% - 80px);
+      height: 70%;
+      z-index: 0;
+    }
+    .slider-txt {
+      position: absolute;
+      z-index: 1;
+      background: rgba(0, 0, 0, 0.8);
+      left: 50%;
+      transform: translateX(-50%);
+      margin-left: 0;
+      padding: 1rem;
+      width: 60%;
+      h3 {
+        font-size: 20px;
+        border-left: 3px solid #fff;
+      }
+      .circle {
+        width: 30px;
+        height: 30px;
+        top: -1px;
+      }
+      p {
+        font-size: 14px;
+      }
+      .uk-button {
+        margin-top: 0 !important;
+        padding: 0 10px;
+        line-height: 30px;
+      }
+    }
+    .uk-slidenav-previous {
+      left: 80px;
+      top: 44%;
+    }
+  }
+  .gallery {
+    .button-switch {
+      left: 5%;
+    }
+  }
+  .testimonials {
+    .wrap {
+      width: 90%;
+      .slider-txt {
+        h5 {
+          font-size: 16px;
+        }
+      }
+    }
+    .uk-slidenav-previous {
+      left: 80px;
+    }
+    .uk-slidenav-next {
+      right: calc(100% - 390px);
+    }
+  }
+  footer {
+    .footer-content {
+      li {
+        font-size: 14px;
+      }
+      .footer-wrapper {
+        .footer-info {
+          img {
+            width: 50px;
+            margin-bottom: 1rem;
+          }
+          .foot-abt {
+            flex-wrap: wrap;
+          }
+        }
+        .contact-info {
+          margin-top: 1rem;
+        }
+      }
+    }
+    .foot {
+      flex-direction: column;
+
+      .social-media {
+        margin-top: 1rem;
+      }
+    }
+  }
+  .contact {
+    .contact-form {
+      padding: 2rem;
+    }
+  }
+  .blog-page .sidebar {
+    width: 100%;
+  }
+  .faq .wrapper ul {
+    width: 100%;
+  }
+  .our-mission .cloud img {
+    height: 130px;
+  }
+  footer .foot .copyright {
+    font-size: 12px;
+  }
+  .about {
+    .about-txt {
+      .txt-heading {
+        h3 {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+  .stat .wrapper i {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 18px;
+  }
+}
